@@ -126,6 +126,14 @@
 
 **Today's Progress**: Did two questions from leetcode and one question from binarysearch.com
 
-**Thoughts**:
+**Thoughts**: 
+
+**Link(s) to work**:
+
+### Day 1 : Saturday , August 21 , 2021
+
+**Today's Progress**: Did three questions from leetcode and one question from binarysearch.com
+
+**Thoughts**: I need more focus . 
 
 **Link(s) to work**:
