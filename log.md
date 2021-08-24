@@ -137,3 +137,25 @@
 **Thoughts**: I need more focus . 
 
 **Link(s) to work**:
+
+### Day 2: Sunday  , August 22 , 2021 
+
+**Today's Progress**: I think I did 3 leetcode questions 
+
+**Thoughts**: busy weekend
+
+**Link(s) to work**:
+
+### Day 3: Monday  , August 23, 2021 
+
+**Today's Progress**: I was busy in revising in Operating systems concepts 
+
+**Thoughts**: Need to hurry 
+
+### Day 4: Tuesday , August 24 , 2021 
+
+**Today's Progress**: 
+
+**Thoughts**:
+
+**Link(s) to work**:
