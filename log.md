@@ -35,7 +35,48 @@
 
 **Link to work:** :
 
-### Day 4:Saturday 14th July 2021 
+### Day 4:Sunday 14th July 2021 
+
+**Today's Progress**: 
+
+**Thoughts:**  
+
+**Link to work:** :
+
+
+### Day 5:Monday 15th July 2021 
+
+**Today's Progress**: 
+
+**Thoughts:**  
+
+**Link to work:** :
+
+### Day 6:Tuesday 16th July 2021 
+
+**Today's Progress**: 
+
+**Thoughts:**  
+
+**Link to work:** :
+
+### Day 7:Thursday 17th July 2021 
+
+**Today's Progress**: 
+
+**Thoughts:**  
+
+**Link to work:** :
+
+### Day 8:Friday 18th July 2021 
+
+**Today's Progress**: 
+
+**Thoughts:**  
+
+**Link to work:** :
+
+### Day 9:Saturday 19th July 2021 
 
 **Today's Progress**: 
 
