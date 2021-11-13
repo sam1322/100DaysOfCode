@@ -1,10 +1,10 @@
 ### Binary Search
-[] 1. median of two sorted arrays
-[] 2.capacity to ship within D days
-[] 3. split array largest sum
-[] 4. Koko eating bananas
-[] 5. Smallest divisor given a threshold
-[] 6. Painter's partition problem
+[ ] 1. median of two sorted arrays
+[ ] 2.capacity to ship within D days
+[ ] 3. split array largest sum
+[ ] 4. Koko eating bananas
+[ ] 5. Smallest divisor given a threshold
+[ ] 6. Painter's partition problem
 
 ### Sorting and BS continued
 1. Counting Sort
