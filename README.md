@@ -4,6 +4,7 @@
 
 * [Rules](rules.md)
 * [Log - click here to see my progress](log.md)
+* [Coding log - click here to see my progress](coding.md)
 * [FAQ](FAQ.md)
 * [Resources](resources.md)
 
