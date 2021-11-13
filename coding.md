@@ -1,42 +1,42 @@
 ### Binary Search
 - [ ] 1. median of two sorted arrays
-- [ ] 2.capacity to ship within D days
+- [ ] 2. capacity to ship within D days
 - [ ] 3. split array largest sum
 - [ ] 4. Koko eating bananas
 - [ ] 5. Smallest divisor given a threshold
 - [ ] 6. Painter's partition problem
 
 ### Sorting and BS continued
-1. Counting Sort
-2. Merge Sort 
-3. Count Inversions
-4. Search in rotated sorted array
-5. Kth smallest prime fraction 
-6. Anagram Mapping 
+- [ ]1. Counting Sort
+- [ ]2. Merge Sort 
+- [ ]3. Count Inversions
+- [ ]4. Search in rotated sorted array
+- [ ]5. Kth smallest prime fraction 
+- [ ]6. Anagram Mapping 
+
+### Dynamic Programming
+- [X]1. Climbing Stairs
+- [ ]2. Jump Game II
+- [ ]3. Min Cost Path
+- [ ]4. Max Size Subsquare with all 1
+- [ ]5. 0-1 Knapsack Problem
+- [ ]6. Fractional Knapsack
 
 Dynamic Programming
-1. Climbing Stairs
-2. Jump Game II
-3. Min Cost Path
-4. Max Size Subsquare with all 1
-5. 0-1 Knapsack Problem
-6. Fractional Knapsack
+- [ ]1. LIS O(nlogn)
+- [ ]2. Building Bridges 
+- [ ]3. Russian Doll Envelope
+- [ ]4. Box Stacking
+- [ ]5. Minimum Number of Increasing Subsequence
+- [ ]6. Maximum sum alternating subsequence 
 
-Dynamic Programming
-1. LIS O(nlogn)
-2. Building Bridges 
-3. Russian Doll Envelope
-4. Box Stacking
-5. Minimum Number of Increasing Subsequence
-6. Maximum sum alternating subsequence 
-
-1. Buy time to buy and sell stocks 
-2. Buy time to buy and sell stocks
-3. Buy time to buy and sell stocks ii
-4. Buy time to buy and sell stocks iii
-5. Buy time to buy and sell stocks iv
-6. Buy time to buy and sell stocks w cooldown
-7. Buy time to buy and sell stocks w transaction fee
+- [ ]1. Buy time to buy and sell stocks 
+- [ ]2. Buy time to buy and sell stocks
+- [ ]3. Buy time to buy and sell stocks ii
+- [ ]4. Buy time to buy and sell stocks iii
+- [ ]5. Buy time to buy and sell stocks iv
+- [ ]6. Buy time to buy and sell stocks w cooldown
+- [ ]7. Buy time to buy and sell stocks w transaction fee
 
 Dynamic Programming
 Paint Fence 
