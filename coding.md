@@ -22,7 +22,7 @@
 - [ ] 5. 0-1 Knapsack Problem
 - [ ] 6. Fractional Knapsack
 
-Dynamic Programming
+### Dynamic Programming
 - [ ] 1. LIS O(nlogn)
 - [ ] 2. Building Bridges 
 - [ ] 3. Russian Doll Envelope

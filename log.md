@@ -29,15 +29,15 @@
 
 ### Day 3:Saturday 13th November 2021 
 
-**Today's Progress**: 
+**Today's Progress**: Completed the 6th chapter except for that egg drop problem which I will study properly later on . And did around three leetcode questions .A question called simple number II was explained deeply by fun4leetcode . 
 
-**Thoughts:**  
+**Thoughts:**  That explanation was extremely lucid and even though it took me an hour or two to understand it ,it was worth it . 
 
 **Link to work:** :
 
 ### Day 4:Sunday 14th November 2021 
 
-**Today's Progress**: 
+**Today's Progress**: Today is also my birthday so happy birthday to me . 
 
 **Thoughts:**  
 
