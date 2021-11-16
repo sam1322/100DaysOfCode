@@ -46,12 +46,12 @@
 
 ### Day 5:Monday 15th November 2021 
 
-**Today's Progress**: 
-
-**Thoughts:**  
+**Today's Progress**: Yesterday I was out partying so  I did nothing . Did 3 leetcode questions which were the Ugly number II , Target sum and missing number
+**Thoughts:**  Thoroughly enjoyed myself yesterday, missing number was very simple but the other questions were moderate difficulty.
 
 **Link to work:** :
-
+1)https://leetcode.com/problems/missing-number/
+2)
 ### Day 6:Tuesday 16th November 2021 
 
 **Today's Progress**: 
