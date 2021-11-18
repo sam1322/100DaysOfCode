@@ -54,17 +54,17 @@
 2)
 ### Day 6:Tuesday 16th November 2021 
 
-**Today's Progress**: 
+**Today's Progress**: Today I got very tired from intern work therefore I could not properly attempt leetcode questions . I was just watching some youtube videos only for leetcode questions which were meeting room II , trapping the rain water 
 
-**Thoughts:**  
+**Thoughts:**  Need a proper strategy for attempting leetcode questions . 
 
 **Link to work:** :
 
 ### Day 7:Wednesday 17th November 2021 
 
-**Today's Progress**: 
+**Today's Progress**: Today I finished my intern work but I got into a fight with my brother and father . I just wanted some personal space where I was doing work because it was hard for me to concentrate to study with my brother side to side .Anyways I kind of lost it and quit it and spend half of my day procrastinating on youtube 
 
-**Thoughts:**  
+**Thoughts:**  Need to make some recovery plan from frustation and stay calm and I also got this wonderful idea of already scouring some questions before hand doing them . 
 
 **Link to work:** :
 
@@ -102,6 +102,30 @@
 
 
 ### Day 12:Monday 22th November 2021 
+
+**Today's Progress**: 
+
+**Thoughts:**  
+
+**Link to work:** :
+
+### Day 13:Tuesday 23th November 2021 
+
+**Today's Progress**: 
+
+**Thoughts:**  
+
+**Link to work:** :
+
+### Day 14:Wednesday 24th November 2021 
+
+**Today's Progress**: 
+
+**Thoughts:**  
+
+**Link to work:** :
+
+### Day 15:Thursday 25th November 2021 
 
 **Today's Progress**: 
 
