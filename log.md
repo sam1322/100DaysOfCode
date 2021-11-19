@@ -70,7 +70,7 @@
 
 ### Day 8:Thursday 18th November 2021 
 
-**Today's Progress**: 
+**Today's Progress**: I did I think 4 leetcode questions and 3 from codeforces div 3 questions .   
 
 **Thoughts:**  
 
@@ -78,9 +78,9 @@
 
 ### Day 9:Friday 19th November 2021 
 
-**Today's Progress**: 
+**Today's Progress**: Today I did 4 leetcode questions .
 
-**Thoughts:**  
+**Thoughts:**  I am feeling great at the time of writing this because I have realised that I can change myself as I have effectively removed this bad habit of me watching youtube .
 
 **Link to work:** :
 
