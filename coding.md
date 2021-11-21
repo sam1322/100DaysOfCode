@@ -47,14 +47,14 @@
 - [ ] 7. Buy time to buy and sell stocks w transaction fee
 
 Dynamic Programming
-Paint Fence 
-Paint House
-Paint House 2
-Number of binary strings w/o consecutive 1's
-Possible ways to construct buildings 
-Catalan Number 
-Total number of BST
-Burst Balloons
+- [ ] 1. Paint Fence 
+- [ ] 2. Paint House
+- [ ] 3. Paint House 2
+- [ ] 4. Number of binary strings w/o consecutive 1's
+- [ ] 5. Possible ways to construct buildings 
+- [ ] 6. Catalan Number 
+- [ ] 7. Total number of BST
+- [ ] 8. Burst Balloons
 
 Dynamic Programming 
 boolean parenthesization

@@ -78,19 +78,28 @@
 
 ### Day 9:Friday 19th November 2021 
 
-**Today's Progress**: Today I did 4 leetcode questions .
+**Today's Progress**: Today I did 4 leetcode questions and 3 codeforces round #754 div 2 questions and tried to understand the 4th question (D) Treelabeling understood what needed to be done but still didn't understand the part where the implementation began .
 
 **Thoughts:**  I am feeling great at the time of writing this because I have realised that I can change myself as I have effectively removed this bad habit of me watching youtube .
 
 **Link to work:** :
+1. maximum-length-of-pair-chain
+2. max-chunks-to-make-sorted
+3. max-chunks-to-make-sorted-ii
+4. flatten-nested-list-iterator
+5. find-the-most-competitive-subsequence
 
 ### Day 10:Saturday 20th November 2021 
 
-**Today's Progress**: 
+**Today's Progress**: Yesterday It took me about 5 hours to do these 4 leetcode questions and I was also reading the solutions so yeah  and i only managed to do one codeforce question before succumbing to the anxiety of end sem , btp and other useless things . I was this close to quiting my session at the 9th session .
 
-**Thoughts:**  
+**Thoughts:**  I am changed man and nothing can change this statement as I am sticking to my word and not wasting too much time in youtube or other useless stuff before finishing my sessions .But after my sessions  completed I wasted too much time in youtube which delayed my sleep and I woke up late next day :( . 
 
 **Link to work:** :
+1. knight-dialer
+2. single-element-in-a-sorted-array
+3. domino-and-tromino-tiling
+4. minimum-cost-for-tickets
 
 ### Day 11:Sunday 21th November 2021 
 
