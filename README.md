@@ -1,58 +1,811 @@
-# I've joined the #100DaysOfCode Challenge
+### This is I guess my 4th attempt on this challenge , but this time I want to really finish this challenge .
 
-## Contents
+# 100 Days Of Code - Log
 
-* [Rules](rules.md)
-* [Log - click here to see my progress](log.md)
-* [Coding log - click here to see my progress](coding.md)
-* [FAQ](FAQ.md)
-* [Resources](resources.md)
+### Day 0:17th February 2022 
 
-## Translations
-[বাংলা](intl/bn/README.md) - [català](intl/ca/README.md) - [中文](intl/ch/README.md) - [deutsch](intl/de/README.md) - [español](intl/es/README.md) – [français](intl/fr/FAQ-fr.md) – [italiano](intl/it/README.md) – [日本語](intl/ja/README.md) - [한국어](intl/ko/README-ko.md) – [nederlands](intl/nl/README.md) – [norsk](intl/no/README.md) –  [polski](intl/pl/README.md) - [português do Brasil](intl/pt-br/LEIAME.md) - [русский](intl/ru/README-ru.md) – [українська](intl/ua/README-ua.md) - [ελληνικά](intl/el/README.md) - [srpski](intl/sr/README-sr.md)
+**Today's Progress :**  Just made a simple group chat application using react and firebase and hosted it on firebase itself .
 
-If you want to help by providing a translation of content/rules in the language you know, submit a pull request (or DM me on Twitter @ka11away), adding a sub-folder in the 'intl' folder with the files of the translation there.
+**Thoughts :** Man couldn't crack any interviews through campus and now offcampus is left as option for me to get any job. This sucks :(
 
-## If you've decided to join:
+**Link to work :** [Github link for the chat application](https://github.com/sam1322/SuperChat)
 
-0.  Check out [the Official Site](http://100daysofcode.com/) for the #100DaysOfCode movement. Connect with others on the platform of your choice from this list: www.100DaysOfCode.com/connect
-    Also, [here](https://www.100daysofcode.com/slack) is a invite link to the 100DaysOfCode Slack channel
-1.  Read [Join the #100DaysOfCode](https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4)
-2.  Fork this repo and commit to the [Log](log.md) or to the Alternative, rapid [R1 Log](r1-log.md) (R1 stands for Round 1) daily. [Example](https://github.com/Kallaway/100-days-kallaway-log).
-3.  **Code minimum an hour every day for the next 100 days.**
-4.  **Encourage at least two other people in the challenge on Twitter every day! Pay it forward!**
-5.  Change the date in [Rules](rules.md) to the day you've started the challenge.
-6.  Delete the examples in the log, or comment them out, and start filling it with your own content.
-7.  **Tweet your progress every day using the #100DaysOfCode hashtag.**
-8.  Follow [Alex, creator of #100DaysOfCode](https://twitter.com/ka11away) & [100DaysOfCode](https://twitter.com/_100DaysOfCode) Twitter Bot that retweets the tweets that contain the #100DaysOfCode hashtag. It's a great way to keep yourself motivated and to participate in the community. Thanks [@amanhimself](https://twitter.com/amanhimself) for creating it!
-9.  Important: (see No.4 above for a specific rule on this) Encourage others who are doing the same challenge on Twitter or elsewhere - by giving them props when they are posting updates on their progress, supporting them when things get difficult. Thus we will grow a community that is helpful and effective, which will lead to a higher success rate for each person involved. It's also more likely that you will stick to your own commitment, given that you will get acquainted with a couple people (or more) right away.
-10.  If you find a great, helpful resource that others would benefit from, either submit a Pull Request to add it to the repo, or just tweet at me (see info below)
+### Day	1  : Friday	    18/02/2022 00:00:00
 
-## ⚡ Interested in meaningfully changing your life & getting the results you want?
+**Today's Progress :**
 
-I publish a newsletter called [Do the Opposite](https://dotheopposite.substack.com/) every other week. It's main focus is providing practical tips and techniques for improving the quality of your life - drawing from a wide variety of themes, listed below.
+**Thoughts :** 
 
-The themes covered are:
-- **Habit Change**. Learn how to successfully acquire good habits and how to quit bad ones.
-- **Book Recommendations & Takeaways**. Get awesome book recommendations and golden nuggets of wisdom extracted from these books so you can put them into action right away!
-- **Personal Finance**. Even tiny change you make about how you manage your money will bring mind-boggling results over time. Find out what these changes are!
-- **Starting a Business**. Whether you're a wanna-be indie maker or want to become the next Elon Musk, you will find some great resources here!
-- **Overcoming Creative Blocks**. Together we explore how to beat the Resistance and finish that project you've been day-dreaming about.
-- **Minimalism** Living with less has lots of benefits: reduced stress, less cleaning, better finances and a lot more!
-- **Other topics**. Psychology, learning to code, alternative lifestyles and more.
+**Link to work :**
 
-Join the Do the Opposite Community!
+### Day	2  : Saturday	19/02/2022 00:00:00
+**Today's Progress :**
 
-💌 [SUBSCRIBE to the newsletter and start changing your life!](https://dotheopposite.substack.com/)
+**Thoughts :** 
 
+**Link to work :**
 
-## Want to change other habits?
+### Day	3  : Sunday	    20/02/2022 00:00:00
 
-Check out [the #100DaysOfX Challenges Project](http://100daysofx.com/). Changing your habits you are changing your life. Remember that the best time to start is always NOW.
+**Today's Progress :**
 
-I recommend that you commit to no more than 2-3 challenges at a time, ideally 2. If you are doing the #100DaysOfCode which involves a lot of mental activity, try the [#100DaysOfHealth](http://100daysofx.com/where-x-is/health/), or [#100DaysOfFitness](http://100daysofx.com/challenges/) challenges. There is so much more on the site, check all of them out and choose the ones you want to acquire! Languages, writing, meditation, journaling, cooking, and more!
+**Thoughts :** 
 
-## Note
+**Link to work :**
 
-* If you have any questions or ideas about 100DaysOfCode (or other ideas), feel free to reach out to me on Twitter: [@ka11away](https://twitter.com/ka11away)
-* If you like this repo and find it useful, please consider &#9733; starring it (on top right of the page) and forking it :)
+### Day	4  : Monday	    21/02/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	5  : Tuesday	22/02/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	6  : Wednesday	23/02/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	7  : Thursday	24/02/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	8  : Friday	    25/02/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	9  : Saturday	26/02/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	10 : Sunday	    27/02/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	11 : Monday	    28/02/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	12 : Tuesday	01/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	13 : Wednesday	02/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	14 : Thursday	03/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	15 : Friday	    04/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	16 : Saturday	05/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	17 : Sunday	    06/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	18 : Monday	    07/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	19 : Tuesday	08/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	20 : Wednesday	09/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	21 : Thursday	10/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	22 : Friday	    11/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	23 : Saturday	12/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	24 : Sunday	    13/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	25 : Monday	    14/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	26 : Tuesday	15/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	27 : Wednesday	16/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	28 : Thursday	17/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	29 : Friday	    18/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	30 : Saturday	19/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	31 : Sunday	    20/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	32 : Monday	    21/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	33 : Tuesday	22/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	34 : Wednesday	23/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	35 : Thursday	24/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	36 : Friday	    25/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	37 : Saturday	26/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	38 : Sunday	    27/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	39 : Monday	    28/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	40 : Tuesday	29/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	41 : Wednesday	30/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	42 : Thursday	31/03/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	43 : Friday	    01/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	44 : Saturday	02/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	45 : Sunday	    03/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	46 : Monday	    04/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	47 : Tuesday	05/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	48 : Wednesday	06/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	49 : Thursday	07/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	50 : Friday	    08/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	51 : Saturday	09/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	52 : Sunday	    10/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	53 : Monday	    11/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	54 : Tuesday	12/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	55 : Wednesday	13/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	56 : Thursday	14/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	57 : Friday	    15/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	58 : Saturday	16/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	59 : Sunday	    17/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	60 : Monday	    18/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	61 : Tuesday	19/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	62 : Wednesday	20/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	63 : Thursday	21/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	64 : Friday	    22/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	65 : Saturday	23/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	66 : Sunday	    24/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	67 : Monday	    25/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	68 : Tuesday	26/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	69 : Wednesday	27/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	70 : Thursday	28/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	71 : Friday	    29/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	72 : Saturday	30/04/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	73 : Sunday	    01/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	74 : Monday	    02/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	75 : Tuesday	03/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	76 : Wednesday	04/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	77 : Thursday	05/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	78 : Friday	    06/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	79 : Saturday	07/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	80 : Sunday	    08/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	81 : Monday	    09/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	82 : Tuesday	10/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	83 : Wednesday	11/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	84 : Thursday	12/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	85 : Friday	    13/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	86 : Saturday	14/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	87 : Sunday	    15/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	88 : Monday	    16/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	89 : Tuesday	17/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	90 : Wednesday	18/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	91 : Thursday	19/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	92 : Friday	    20/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	93 : Saturday	21/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	94 : Sunday	    22/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	95 : Monday	    23/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	96 : Tuesday	24/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	97 : Wednesday	25/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	98 : Thursday	26/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	99 : Friday	    27/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
+### Day	100 : Saturday	28/05/2022 00:00:00
+
+**Today's Progress :**
+
+**Thoughts :** 
+
+**Link to work :**
+
