@@ -31,12 +31,13 @@
 
 ### Day	3  : Sunday	    20/02/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Nothing very much but just did a couple of leetcode questions and a codeforces contest even though I just did only a single question. 
 
-**Thoughts :** 
+**Thoughts :** Just doing it slowly but trying to maintain consistency. 
 
 **Link to work :**
 1)[Remove Covered Intervals]https://leetcode.com/problems/remove-covered-intervals/
+2)[maximum split of positive even integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)
 
 ### Day	4  : Monday	    21/02/2022 00:00:00
 
