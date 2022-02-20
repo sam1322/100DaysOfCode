@@ -1,4 +1,4 @@
-### This is I guess my 4th attempt on this challenge , but this time I want to really finish this challenge .
+### This is I guess my 4th attempt on this challenge , but this time I really want to finish this challenge .
 
 # 100 Days Of Code - Log
 
@@ -8,22 +8,26 @@
 
 **Thoughts :** Man couldn't crack any interviews through campus and now offcampus is left as option for me to get any job. This sucks :(
 
-**Link to work :** [Github link for the chat application](https://github.com/sam1322/SuperChat)
+**Link to work :**1) [Github link for the chat application](https://github.com/sam1322/SuperChat)
 
 ### Day	1  : Friday	    18/02/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** 😞  
 
-**Thoughts :** 
+**Thoughts :** Today I was kind of lethargic to do any leetcode questions
 
 **Link to work :**
 
 ### Day	2  : Saturday	19/02/2022 00:00:00
-**Today's Progress :**
 
-**Thoughts :** 
+**Today's Progress :** Did 2 leetcode problems 
+
+**Thoughts :** Progress kind of slow 
 
 **Link to work :**
+1)[Count Equal and Divisible pairs in an array](https://leetcode.com/contest/biweekly-contest-72/problems/count-equal-and-divisible-pairs-in-an-array)
+
+2)[Find three consecutive integers that sum to a given number](https://leetcode.com/contest/biweekly-contest-72/problems/find-three-consecutive-integers-that-sum-to-a-given-number)
 
 ### Day	3  : Sunday	    20/02/2022 00:00:00
 
@@ -32,6 +36,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1)[Remove Covered Intervals]https://leetcode.com/problems/remove-covered-intervals/
 
 ### Day	4  : Monday	    21/02/2022 00:00:00
 
