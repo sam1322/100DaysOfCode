@@ -29,7 +29,7 @@
 
 2)[Find three consecutive integers that sum to a given number](https://leetcode.com/contest/biweekly-contest-72/problems/find-three-consecutive-integers-that-sum-to-a-given-number)
 
-### Day	3  : Sunday	    20/02/2022 00:00:00
+### Day	3  : Sunday	    20/02/2022 22:25:00 
 
 **Today's Progress :** Nothing very much but just did a couple of leetcode questions and a codeforces contest even though I just did only a single question. 
 
