@@ -41,7 +41,7 @@
 
 ### Day	4  : Monday	    21/02/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :**NO progress 
 
 **Thoughts :** 
 
@@ -49,7 +49,7 @@
 
 ### Day	5  : Tuesday	22/02/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Did two questions from codeforces education round 
 
 **Thoughts :** 
 
@@ -57,11 +57,12 @@
 
 ### Day	6  : Wednesday	23/02/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Did one leetcode question
 
 **Thoughts :** 
 
 **Link to work :**
+1)[Excel sheet column number(Easy)](https://leetcode.com/problems/excel-sheet-column-number)
 
 ### Day	7  : Thursday	24/02/2022 00:00:00
 
