@@ -55,14 +55,15 @@
 
 **Link to work :**
 
-### Day	6  : Wednesday	23/02/2022 00:00:00
+### Day	6  : Wednesday	23/02/2022 09:43:45
 
-**Today's Progress :** Did one leetcode question
+**Today's Progress :** Did two leetcode question in which i did the clone graph in both dfs and bfs method.
 
-**Thoughts :** 
+**Thoughts :** Need to improve my debugging skills.
 
 **Link to work :**
 1)[Excel sheet column number(Easy)](https://leetcode.com/problems/excel-sheet-column-number)
+2)[Clone graph(Medium)](https://leetcode.com/problems/clone-graph/)
 
 ### Day	7  : Thursday	24/02/2022 00:00:00
 
