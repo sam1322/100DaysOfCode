@@ -59,15 +59,15 @@
 
 **Today's Progress :** Did two leetcode question in which i did the clone graph in both dfs and bfs method.
 
-**Thoughts :** Need to improve my debugging skills.
+**Thoughts :** Need to improve my debugging skills. 
 
 **Link to work :**
 1)[Excel sheet column number(Easy)](https://leetcode.com/problems/excel-sheet-column-number)
 2)[Clone graph(Medium)](https://leetcode.com/problems/clone-graph/)
 
-### Day	7  : Thursday	24/02/2022 00:00:00
+### Day	7  : Thursday	24/02/2022 18:55:28
 
-**Today's Progress :**
+**Today's Progress :** Did the daily leetcode challenge and upsolved yesterday's codeforces contest .
 
 **Thoughts :** 
 
@@ -75,9 +75,9 @@
 
 ### Day	8  : Friday	    25/02/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Did only one single leetcode question of the daily challenge .
 
-**Thoughts :** 
+**Thoughts :** I should set my priorities straight.
 
 **Link to work :**
 
