@@ -10,7 +10,9 @@
 
 **Thoughts :** Man couldn't crack any interviews through campus and now offcampus is left as option for me to get any job. This sucks :(
 
-**Link to work :**1) [Github link for the chat application](https://github.com/sam1322/SuperChat)
+**Link to work :**
+
+1) [Github link for the chat application](https://github.com/sam1322/SuperChat)
 
 ### Day	1  : Friday	    18/02/2022 00:00:00
 
@@ -38,7 +40,8 @@
 **Thoughts :** Just doing it slowly but trying to maintain consistency. 
 
 **Link to work :**
-1)[Remove Covered Intervals]https://leetcode.com/problems/remove-covered-intervals/
+1)[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)
+
 2)[maximum split of positive even integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)
 
 ### Day	4  : Monday	    21/02/2022 00:00:00
@@ -65,6 +68,7 @@
 
 **Link to work :**
 1)[Excel sheet column number(Easy)](https://leetcode.com/problems/excel-sheet-column-number)
+
 2)[Clone graph(Medium)](https://leetcode.com/problems/clone-graph/)
 
 ### Day	7  : Thursday	24/02/2022 18:55:28
@@ -90,18 +94,20 @@
 **Thoughts :** Was trying to solve the daily challenge leetcode but couldn't solve it , it was kind of too hard for me.
 
 **Link to work :** 
+
 1)[Sorting Parts](https://codeforces.com/contest/1637/problem/A)
 
-### Day	10 : Sunday	    27/02/2022 14:26:05
+### Day	10 : Sunday	    27/02/2022 14:29:05
 
 **Today's Progress :** Did two leetcode questions 
 
 **Thoughts :** Today's leetcode daily challenge was good man 
 
 **Link to work :**
-1)[maximum width of binary tree (medium)](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 
-2)[shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes)
+1)[Maximum width of binary tree (medium)](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+
+2)[Shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes)
 
 ### Day	11 : Monday	    28/02/2022 00:00:00
 
