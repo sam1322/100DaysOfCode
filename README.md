@@ -83,11 +83,12 @@
 
 ### Day	9  : Saturday	26/02/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Did a single  question 'A' from Codeforces global round 19 T-T
 
-**Thoughts :** 
+**Thoughts :** Was trying to solve the daily challenge leetcode but couldn't solve it , it was kindof too hard for me.
 
-**Link to work :**
+**Link to work :** 
+1)[Sorting Parts](https://codeforces.com/contest/1637/problem/A)
 
 ### Day	10 : Sunday	    27/02/2022 00:00:00
 
