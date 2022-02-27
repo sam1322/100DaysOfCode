@@ -92,14 +92,16 @@
 **Link to work :** 
 1)[Sorting Parts](https://codeforces.com/contest/1637/problem/A)
 
-### Day	10 : Sunday	    27/02/2022 10:08:51
+### Day	10 : Sunday	    27/02/2022 14:26:05
 
-**Today's Progress :** Today's leetcode daily challenge was good man 
+**Today's Progress :** Did two leetcode questions 
 
-**Thoughts :** 
+**Thoughts :** Today's leetcode daily challenge was good man 
 
 **Link to work :**
 1)[maximum width of binary tree (medium)](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+
+2)[shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes)
 
 ### Day	11 : Monday	    28/02/2022 00:00:00
 
