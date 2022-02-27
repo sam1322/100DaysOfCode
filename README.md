@@ -29,9 +29,9 @@
 **Thoughts :** Progress kind of slow 
 
 **Link to work :**
-1)[Count Equal and Divisible pairs in an array](https://leetcode.com/contest/biweekly-contest-72/problems/count-equal-and-divisible-pairs-in-an-array)
+1) [Count Equal and Divisible pairs in an array](https://leetcode.com/contest/biweekly-contest-72/problems/count-equal-and-divisible-pairs-in-an-array)
 
-2)[Find three consecutive integers that sum to a given number](https://leetcode.com/contest/biweekly-contest-72/problems/find-three-consecutive-integers-that-sum-to-a-given-number)
+2) [Find three consecutive integers that sum to a given number](https://leetcode.com/contest/biweekly-contest-72/problems/find-three-consecutive-integers-that-sum-to-a-given-number)
 
 ### Day	3  : Sunday	    20/02/2022 22:25:00 
 
@@ -40,9 +40,9 @@
 **Thoughts :** Just doing it slowly but trying to maintain consistency. 
 
 **Link to work :**
-1)[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)
+1) [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)
 
-2)[maximum split of positive even integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)
+2) [maximum split of positive even integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)
 
 ### Day	4  : Monday	    21/02/2022 00:00:00
 
@@ -67,9 +67,9 @@
 **Thoughts :** Need to improve my debugging skills. 
 
 **Link to work :**
-1)[Excel sheet column number(Easy)](https://leetcode.com/problems/excel-sheet-column-number)
+1) [Excel sheet column number(Easy)](https://leetcode.com/problems/excel-sheet-column-number)
 
-2)[Clone graph(Medium)](https://leetcode.com/problems/clone-graph/)
+2) [Clone graph(Medium)](https://leetcode.com/problems/clone-graph/)
 
 ### Day	7  : Thursday	24/02/2022 18:55:28
 
@@ -95,7 +95,7 @@
 
 **Link to work :** 
 
-1)[Sorting Parts](https://codeforces.com/contest/1637/problem/A)
+1) [Sorting Parts](https://codeforces.com/contest/1637/problem/A)
 
 ### Day	10 : Sunday	    27/02/2022 14:29:05
 
@@ -105,9 +105,9 @@
 
 **Link to work :**
 
-1)[Maximum width of binary tree (medium)](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+1) [Maximum width of binary tree (medium)](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 
-2)[Shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes)
+2) [Shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes)
 
 ### Day	11 : Monday	    28/02/2022 00:00:00
 
