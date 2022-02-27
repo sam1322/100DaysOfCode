@@ -40,9 +40,9 @@
 **Thoughts :** Just doing it slowly but trying to maintain consistency. 
 
 **Link to work :**
-1) [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)
+1) [Remove Covered Intervals(Easy)](https://leetcode.com/problems/remove-covered-intervals/)
 
-2) [maximum split of positive even integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)
+2) [maximum split of positive even integers(Medium)](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)
 
 ### Day	4  : Monday	    21/02/2022 00:00:00
 
@@ -95,7 +95,7 @@
 
 **Link to work :** 
 
-1) [Sorting Parts](https://codeforces.com/contest/1637/problem/A)
+1) [Sorting Parts(Medium)](https://codeforces.com/contest/1637/problem/A)
 
 ### Day	10 : Sunday	    27/02/2022 14:29:05
 
@@ -105,9 +105,9 @@
 
 **Link to work :**
 
-1) [Maximum width of binary tree (medium)](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+1) [Maximum width of binary tree (Medium)](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 
-2) [Shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes)
+2) [Shortest path visiting all nodes(Hard)](https://leetcode.com/problems/shortest-path-visiting-all-nodes)
 
 ### Day	11 : Monday	    28/02/2022 00:00:00
 
