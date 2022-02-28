@@ -91,7 +91,7 @@
 
 **Today's Progress :** Did a single  question 'A' from Codeforces global round 19 T-T
 
-**Thoughts :** Was trying to solve the daily challenge leetcode but couldn't solve it , it was kind of too hard for me.
+**Thoughts :** Was trying to solve the daily challenge leetcode but couldn't solve it , it was kind of too hard for me T-T 
 
 **Link to work :** 
 
@@ -99,9 +99,9 @@
 
 ### Day	10 : Sunday	    27/02/2022 14:29:05
 
-**Today's Progress :** Did two leetcode questions 
+**Today's Progress :** Did two leetcode questions and one codeforces question after looking at the solutions.
 
-**Thoughts :** Today's leetcode daily challenge was good man 
+**Thoughts :** Today's leetcode daily challenge was good man , and Finally understood the B part of codeforces global round 19 . I was taking forever in that question. T_T
 
 **Link to work :**
 
@@ -111,11 +111,12 @@
 
 ### Day	11 : Monday	    28/02/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :**	Did the leetcode daily challenge and C question of codeforce global round 19.
 
-**Thoughts :** 
+**Thoughts :** Today's leetcode daily challenge was easy and why do I get so bored easily ? 
 
 **Link to work :**
+1) [Summary Ranges(Easy)](https://leetcode.com/problems/summary-ranges/)
 
 ### Day	12 : Tuesday	01/03/2022 00:00:00
 
