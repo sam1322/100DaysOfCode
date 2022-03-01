@@ -120,11 +120,13 @@
 
 ### Day	12 : Tuesday	01/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Just did one leetcode question and did two codeforce questions out of which the B part of cf round 770 was very interesting.
 
-**Thoughts :** 
+**Thoughts :** Progress currently going very slowly but not going to break the streak no matter what.
 
 **Link to work :**
+1) [1634a](codeforces/1634a.cpp)
+2) [1634b](codeforces/1634b.cpp)
 
 ### Day	13 : Wednesday	02/03/2022 00:00:00
 
