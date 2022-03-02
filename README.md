@@ -130,11 +130,12 @@
 
 ### Day	13 : Wednesday	02/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Just again did one leetcode daily challenge, very easy question and a simple codeforce question from cf round 770. 
 
-**Thoughts :** 
+**Thoughts :**  Progress going slowly. Have to keep my head clear else I could lose the path of my journey. Feels like I am letting myself down.
 
 **Link to work :**
+1) [1634c](codeforces/1634c.cpp)
 
 ### Day	14 : Thursday	03/03/2022 00:00:00
 
