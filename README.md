@@ -128,7 +128,7 @@
 1) [1634a](codeforces/1634a.cpp)
 2) [1634b](codeforces/1634b.cpp)
 
-### Day	13 : Wednesday	02/03/2022 00:00:00
+### Day	13 : Wednesday	02/03/2022 00:12:53
 
 **Today's Progress :** Just again did one leetcode daily challenge, very easy question and a simple codeforce question from cf round 770. 
 
@@ -139,15 +139,15 @@
 
 ### Day	14 : Thursday	03/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Barely done one leetcode question and codeforces question.
 
-**Thoughts :** 
+**Thoughts :** Had an exam today , also was feeling unwell with snotty nose and sore throat , so was totally tired out today.
 
 **Link to work :**
 
 ### Day	15 : Friday	    04/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Did two leetcode questions .
 
 **Thoughts :** 
 
