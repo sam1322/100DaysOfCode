@@ -145,11 +145,11 @@
 
 **Link to work :**
 
-### Day	15 : Friday	    04/03/2022 00:00:00
+### Day	15 : Friday	    04/03/2022 11:36:30
 
-**Today's Progress :** Did two leetcode questions .
+**Today's Progress :** Did two leetcode questions and 3-4 codeforces questions.
 
-**Thoughts :** 
+**Thoughts :** Progress is very slow and I have  also called a cold which is limiting my working condition T_T or something similar but I definitely don't want a repeat of last time when I was unwell. 
 
 **Link to work :**
 
