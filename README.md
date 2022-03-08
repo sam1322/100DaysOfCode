@@ -179,11 +179,15 @@
 
 ### Day	19 : Tuesday	08/03/2022 00:00:00
 
-**Today's Progress :** Did 3 leetcode questions.
+**Today's Progress :** Did 3 leetcode questions and also did a very simple react application. 
 
 **Thoughts :** Was busy preparing for the midsems and was also sick so I forgot to update .
 
 **Link to work :**
+1) [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+2) [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)
+3) [Kth Largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+4) [Github link to the Random Advice Generator Website ](https://github.com/sam1322/advice_project)
 
 ### Day	20 : Wednesday	09/03/2022 00:00:00
 
