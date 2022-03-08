@@ -155,7 +155,7 @@
 
 ### Day	16 : Saturday	05/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Did 1 leetcode question
 
 **Thoughts :** 
 
@@ -163,7 +163,7 @@
 
 ### Day	17 : Sunday	    06/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** 1 leetcode question
 
 **Thoughts :** 
 
@@ -171,7 +171,7 @@
 
 ### Day	18 : Monday	    07/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** 1 leetcode question
 
 **Thoughts :** 
 
@@ -179,9 +179,9 @@
 
 ### Day	19 : Tuesday	08/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Did 3 leetcode questions.
 
-**Thoughts :** 
+**Thoughts :** Was busy preparing for the midsems and was also sick so I forgot to update .
 
 **Link to work :**
 
