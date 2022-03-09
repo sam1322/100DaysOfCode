@@ -196,7 +196,7 @@
 **Thoughts :** 
 
 **Link to work :**
-1) [remove duplicates](/82-remove-duplicates-from-sorted-list-ii/)
+1) [remove duplicates](82-remove-duplicates-from-sorted-list-ii/)
 
 ### Day	21 : Thursday	10/03/2022 00:00:00
 
