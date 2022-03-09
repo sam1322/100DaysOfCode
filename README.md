@@ -189,13 +189,14 @@
 3) [Kth Largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 4) [Github link to the Random Advice Generator Website ](https://github.com/sam1322/advice_project)
 
-### Day	20 : Wednesday	09/03/2022 00:00:00
+### Day	20 : Wednesday	09/03/2022 10:37:45
 
-**Today's Progress :**
+**Today's Progress :** Did one leetcode question.
 
 **Thoughts :** 
 
 **Link to work :**
+1) [remove duplicates](100DaysOfCode/82-remove-duplicates-from-sorted-list-ii/)
 
 ### Day	21 : Thursday	10/03/2022 00:00:00
 
