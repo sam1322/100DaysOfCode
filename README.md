@@ -189,14 +189,19 @@
 3) [Kth Largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 4) [Github link to the Random Advice Generator Website ](https://github.com/sam1322/advice_project)
 
-### Day	20 : Wednesday	09/03/2022 10:37:45
+### Day	20 : Wednesday	09/03/2022 16:34:50
 
-**Today's Progress :** Did one leetcode question.
+**Today's Progress :** Did four leetcode question .
 
-**Thoughts :** 
+**Thoughts :** It is getting more interesting and fun since I found this chrome extension Leethub . It allows me to push leetcode solutions on this repository.
 
 **Link to work :**
 1) [remove duplicates](82-remove-duplicates-from-sorted-list-ii/)
+2) [deepest leave sums](1302-deepest-leaves-sum/)
+3) [Kth largest element in a stream](703-kth-largest-element-in-a-stream)
+4) [binary-search-tree-to-greater-sum-tree](1038-binary-search-tree-to-greater-sum-tree/)
+
+
 
 ### Day	21 : Thursday	10/03/2022 00:00:00
 
