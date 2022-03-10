@@ -205,11 +205,17 @@
 
 ### Day	21 : Thursday	10/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Did 4 leetcode questions today , but damn that super ugly question took way more time than  needed. Even c++ failed against it .
 
-**Thoughts :** 
+**Thoughts :** Feeling a little tired after that last question .
 
-**Link to work :**
+**Link to work :** 
+1) [2-add-two-numbers](2-add-two-numbers/)
+2) [238-product-of-array-except-self](238-product-of-array-except-self)
+3) [445-add-two-numbers-ii](445-add-two-numbers-ii)
+4) [313-super-ugly-number](313-super-ugly-number)
+
+
 
 ### Day	22 : Friday	    11/03/2022 00:00:00
 

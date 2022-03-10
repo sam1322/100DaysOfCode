@@ -39,31 +39,80 @@ double champagneTower(int p, int i, int j) {
         return min(dp[j],1.0);
     }
 
+struct compare{
+  public:
+  bool operator()(vector<long long > &a,vector<long long> & b) // overloading both operators 
+  {
+      // return a.w < b.w: // if you want increasing order;(i.e increasing for maxPQ)
+      // return a.w > b.w // if you want reverse of default order;(i.e decreasing for minPQ)
+
+    return a[0] > b[0] ; 
+
+   }
+};
+
+int nthSuperUglyNumber(int n, vector<int>& primes) {
+    priority_queue<vector<long long> ,vector<vector<long long>>, compare > q ;
+    vector<long long> nums(n) ;
+    nums[0] = 1 ;
+    for(int i : primes){
+        q.push({i,i,0} );
+    }          
+    int j = 0  ; 
+    for(int i = 1 ;  i < n ;){
+        // long long [num,prime,index] = q.top() ;
+        // if(j >10) break ; j++;cout<<j <<" ";
+        vector<long long> v = q.top() ;
+        q.pop();
+        long long num = v[0] , prime = v[1] , index = v[2] ; 
+        // cout<<i<<" "<<num<<" " <<prime<<" "<<index <<endl;
+        if(num!=nums[i-1]){
+            nums[i] = num ; 
+            i++; 
+        }
+        q.push( { prime*nums[index+1] , prime , index + 1} );
+    }
+    return nums[n-1];
+
+}
+
 //int solve(){
-void solve(){
+void solve1(){
 	int poured = 100000009, query_row = 33, query_glass = 17 ; 
 	 poured = 2, query_row = 1, query_glass = 1 ; 
 	cout<<std::fixed <<setprecision(6)<<champagneTower(poured,query_row,query_glass)<<endl;
+}
+
+void solve(){
+    int n = 12 ; 
+    vector<int> primes = {2,7,13,19} ; 
+
+    n = 1000000;
+    primes = {2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101,103,107,109,113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,199,211,223,227,229,233,239,241,251,257,263,269,271,277,281,283,293,307,311,313,317,331,337,347,349,353,359,367,373,379,383,389,397,401,409,419,421,431,433,439,443,449,457,461,463,467,479,487,491,499,503,509,521,523,541};
+
+    Show(primes);nl;
+    cout<<"Ans "<<nthSuperUglyNumber(n,primes);nl;
 }
 
 int main()
 {
    ios_base::sync_with_stdio(false);cin.tie(NULL);
  
-    
-   #ifndef ONLINE_JUDGE
-   freopen("in", "r", stdin);
-   freopen("err", "w", stderr);
-   freopen("out", "w", stdout);
-   #endif
+   //  solve();
+   // #ifndef ONLINE_JUDGE
+   // freopen("in", "r", stdin);
+   // freopen("err", "w", stderr);
+   // freopen("out", "w", stdout);
+   // #endif
 
-    int tc=1;
-    //scanf("%d", &tc) ; 
-    // cin>>tc; 
+    solve();
+       //  int tc=1;
+   //  //scanf("%d", &tc) ; 
+   //  // cin>>tc; 
 
-    while(tc--){
-    	//cout<<solve()<<endl;
-      solve();
-      //cout<<endl;
-    }
+   //  while(tc--){
+   //  	//cout<<solve()<<endl;
+   //    solve();
+   //    //cout<<endl;
+   //  }
 }
