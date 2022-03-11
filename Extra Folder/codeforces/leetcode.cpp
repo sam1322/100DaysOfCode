@@ -76,22 +76,52 @@ int nthSuperUglyNumber(int n, vector<int>& primes) {
 
 }
 
-//int solve(){
-void solve1(){
-	int poured = 100000009, query_row = 33, query_glass = 17 ; 
-	 poured = 2, query_row = 1, query_glass = 1 ; 
-	cout<<std::fixed <<setprecision(6)<<champagneTower(poured,query_row,query_glass)<<endl;
-}
+// //int solve(){
+// void solve1(){
+// 	int poured = 100000009, query_row = 33, query_glass = 17 ; 
+// 	 poured = 2, query_row = 1, query_glass = 1 ; 
+// 	cout<<std::fixed <<setprecision(6)<<champagneTower(poured,query_row,query_glass)<<endl;
+// }
+
+// void solve2(){
+//     int n = 12 ; 
+//     vector<int> primes = {2,7,13,19} ; 
+
+//     n = 1000000;
+//     primes = {2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101,103,107,109,113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,199,211,223,227,229,233,239,241,251,257,263,269,271,277,281,283,293,307,311,313,317,331,337,347,349,353,359,367,373,379,383,389,397,401,409,419,421,431,433,439,443,449,457,461,463,467,479,487,491,499,503,509,521,523,541};
+
+//     Show(primes);nl;
+//     cout<<"Ans "<<nthSuperUglyNumber(n,primes);nl;
+// }
 
 void solve(){
-    int n = 12 ; 
-    vector<int> primes = {2,7,13,19} ; 
+    char str[100];
+    char c[100];
+    char d[100];
 
-    n = 1000000;
-    primes = {2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101,103,107,109,113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,199,211,223,227,229,233,239,241,251,257,263,269,271,277,281,283,293,307,311,313,317,331,337,347,349,353,359,367,373,379,383,389,397,401,409,419,421,431,433,439,443,449,457,461,463,467,479,487,491,499,503,509,521,523,541};
 
-    Show(primes);nl;
-    cout<<"Ans "<<nthSuperUglyNumber(n,primes);nl;
+    printf("Line of text: \n\n");
+    scanf(" %[^\n]s", str);
+
+    printf("\nWord: \n");
+    scanf("%s", c);
+
+    printf("%s : %s",str,c);
+
+
+    // printf("No of occurences: %d\n", countOccurences(str, c));
+
+    // printf("Word to replace:\n");
+    // scanf("%s", d);
+
+    // char* result = NULL;
+
+    // result = replaceWord(str, c, d);
+
+    // printf("Result:\n\n");
+    // printf("%s", result);
+
+
 }
 
 int main()

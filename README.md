@@ -219,11 +219,14 @@
 
 ### Day	22 : Friday	    11/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Currently 2 leetcode questions done.
 
-**Thoughts :** 
+**Thoughts :** Progress is very slow.
 
 **Link to work :**
+1) [61 rotate list](61-rotate-list)
+2) [2163 minimum difference in sums after removal of elements](2163-minimum-difference-in-sums-after-removal-of-elements)
+3)
 
 ### Day	23 : Saturday	12/03/2022 00:00:00
 
