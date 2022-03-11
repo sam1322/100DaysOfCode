@@ -219,7 +219,7 @@
 
 ### Day	22 : Friday	    11/03/2022 00:00:00
 
-**Today's Progress :** Currently 2 leetcode questions done.
+**Today's Progress :** 5 leetcode questions done.
 
 **Thoughts :** Progress is very slow.
 
