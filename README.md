@@ -224,9 +224,11 @@
 **Thoughts :** Progress is very slow.
 
 **Link to work :**
-1) [61 rotate list](61-rotate-list)
-2) [2163 minimum difference in sums after removal of elements](2163-minimum-difference-in-sums-after-removal-of-elements)
-3)
+1) [61. rotate list](61-rotate-list)
+2) [2163. minimum difference in sums after removal of elements](2163-minimum-difference-in-sums-after-removal-of-elements)
+3) [659. split array into consecutive subsequences](659-split-array-into-consecutive-subsequences)
+4) [1382. Balance a Binary Search Tree](1382-balance-a-binary-search-tree/)
+5) [397. Integer Replacement](397-integer-replacement/)
 
 ### Day	23 : Saturday	12/03/2022 00:00:00
 
