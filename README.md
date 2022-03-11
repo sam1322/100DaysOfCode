@@ -219,9 +219,9 @@
 
 ### Day	22 : Friday	    11/03/2022 00:00:00
 
-**Today's Progress :** 5 leetcode questions done.
+**Today's Progress :** Today I did 5 leetcode questions and was also busy creating a project on covid 19 tracker from reactjs .
 
-**Thoughts :** Progress is very slow.
+**Thoughts :** Progress is very slow and the project is still incomplete.
 
 **Link to work :**
 1) [61. rotate list](61-rotate-list)
@@ -229,6 +229,8 @@
 3) [659. split array into consecutive subsequences](659-split-array-into-consecutive-subsequences)
 4) [1382. Balance a Binary Search Tree](1382-balance-a-binary-search-tree/)
 5) [397. Integer Replacement](397-integer-replacement/)
+
+6) [Covid 19 Tracker](https://github.com/sam1322/covid-19-tracker)
 
 ### Day	23 : Saturday	12/03/2022 00:00:00
 
