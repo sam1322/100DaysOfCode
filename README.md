@@ -234,11 +234,15 @@
 
 ### Day	23 : Saturday	12/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** 
 
 **Thoughts :** 
 
 **Link to work :**
+1) [138. copy list with random pointer](138-copy-list-with-random-pointer/)
+2) [1079. letter tile possibilities](1079-letter-tile-possibilities)
+3) [241. Different Ways to Add Parentheses](241-different-ways-to-add-parentheses)
+
 
 ### Day	24 : Sunday	    13/03/2022 00:00:00
 

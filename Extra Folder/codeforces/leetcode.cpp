@@ -26,14 +26,80 @@ typedef long long  ll;
 typedef pair<int,int> pii; 
 // sieve , binomial coeff , pascal 
 
+// recursion based algorithm
+
+map<string,vector<int>> mp ;
+
+vector<int> f(string s){
+    vector<int> res ;
+
+    if(mp.count(s) > 0)return mp[s] ; 
+
+    int n = s.size() ; 
+
+    for(int i = 0 ; i < n ; ++i){
+        char c = s[i] ; 
+        if(c=='+'||c=='-'||c=='*'){
+            vector<int> res1 = f(s.substr(0,i)) ; 
+            vector<int> res2 = f(s.substr(i+1)) ; 
+
+            for(auto i:res1 )
+            {
+                for(auto j:res2){
+                    if(c == '+')
+                        res.push_back(i+j);
+                    else if(c=='-')
+                        res.push_back(i-j);                    
+                    else if(c=='*')
+                        res.push_back(i*j) ; 
+                }
+            }
+        }
+    }
+
+    if(res.empty()){
+        res.push_back(stoi(s));
+    }
+
+    mp[s] = res ; 
+    return mp[s] ;
+}
+
+void solve(){
+
+    string s = "2-1+1" ; 
+    s = "2*3-4*5";
+    mp.clear();
+    vector<int> ans = f(s);
+    
+    Show(ans);nl;
+
+}
+
+int main()
+{
+   ios_base::sync_with_stdio(false);cin.tie(NULL);
+ 
+   //  solve();
+   // #ifndef ONLINE_JUDGE
+   // freopen("in", "r", stdin);
+   // freopen("err", "w", stderr);
+   // freopen("out", "w", stdout);
+   // #endif
+
+    solve();
+ 
+}
+
+
 double champagneTower(int p, int i, int j) {
         vector<double> dp(i+1); 
         dp[0] = p ;
 
         for(int k = 1 ; k <= i ;++k){
-        	for(int l = k ; l >=0 ; --l ){
-        		dp[l+1] +=dp[l] = max(0.0,(dp[l] - 1)/2) ; 
-        	}
+            for(int l = k ; l >=0 ; --l ){
+                dp[l+1] +=dp[l] = max(0.0,(dp[l] - 1)/2) ; 
+            }
 
         }
         return min(dp[j],1.0);
@@ -78,9 +144,9 @@ int nthSuperUglyNumber(int n, vector<int>& primes) {
 
 // //int solve(){
 // void solve1(){
-// 	int poured = 100000009, query_row = 33, query_glass = 17 ; 
-// 	 poured = 2, query_row = 1, query_glass = 1 ; 
-// 	cout<<std::fixed <<setprecision(6)<<champagneTower(poured,query_row,query_glass)<<endl;
+//  int poured = 100000009, query_row = 33, query_glass = 17 ; 
+//   poured = 2, query_row = 1, query_glass = 1 ; 
+//  cout<<std::fixed <<setprecision(6)<<champagneTower(poured,query_row,query_glass)<<endl;
 // }
 
 // void solve2(){
@@ -94,7 +160,7 @@ int nthSuperUglyNumber(int n, vector<int>& primes) {
 //     cout<<"Ans "<<nthSuperUglyNumber(n,primes);nl;
 // }
 
-void solve(){
+void solve3(){
     char str[100];
     char c[100];
     char d[100];
@@ -122,27 +188,4 @@ void solve(){
     // printf("%s", result);
 
 
-}
-
-int main()
-{
-   ios_base::sync_with_stdio(false);cin.tie(NULL);
- 
-   //  solve();
-   // #ifndef ONLINE_JUDGE
-   // freopen("in", "r", stdin);
-   // freopen("err", "w", stderr);
-   // freopen("out", "w", stdout);
-   // #endif
-
-    solve();
-       //  int tc=1;
-   //  //scanf("%d", &tc) ; 
-   //  // cin>>tc; 
-
-   //  while(tc--){
-   //  	//cout<<solve()<<endl;
-   //    solve();
-   //    //cout<<endl;
-   //  }
 }
