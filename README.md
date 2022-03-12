@@ -234,7 +234,7 @@
 
 ### Day	23 : Saturday	12/03/2022 00:00:00
 
-**Today's Progress :** 
+**Today's Progress :** Today I did 3 leetcode questions.
 
 **Thoughts :** 
 
