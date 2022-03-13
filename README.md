@@ -234,7 +234,7 @@
 
 ### Day	23 : Saturday	12/03/2022 00:00:00
 
-**Today's Progress :** Today I did 3 leetcode questions.
+**Today's Progress :** Today I did 3 leetcode questions also worked on that covid-19 tracker project.
 
 **Thoughts :** 
 
@@ -242,15 +242,17 @@
 1) [138. copy list with random pointer](138-copy-list-with-random-pointer/)
 2) [1079. letter tile possibilities](1079-letter-tile-possibilities)
 3) [241. Different Ways to Add Parentheses](241-different-ways-to-add-parentheses)
+4) [Covid 19 Tracker](https://github.com/sam1322/covid-19-tracker)
 
 
 ### Day	24 : Sunday	    13/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :**Today did only 1 leetcode question.
 
-**Thoughts :** 
+**Thoughts :** Couldn't focus properly today ,mostly because I was still thinking about the ending of berserk and thinking what would happen to guts :P.
 
 **Link to work :**
+1) [20 valid parentheses](20-valid-parentheses)
 
 ### Day	25 : Monday	    14/03/2022 00:00:00
 
