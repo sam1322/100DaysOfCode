@@ -256,11 +256,15 @@
 
 ### Day	25 : Monday	    14/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Did three leetcode questions also partially completed the covid tracker application 
 
-**Thoughts :** 
+**Thoughts :** I am feeling exhausted while doing the project.
 
 **Link to work :**
+1) [698. Partition to K Equal Sum Subsets](698-partition-to-k-equal-sum-subsets)
+2) [71. Simplify Path](71-simplify-path/)
+3) [763. Partition Labels](763-partition-labels)
+4) [Covid 19 Tracker](https://github.com/sam1322/covid-19-tracker)
 
 ### Day	26 : Tuesday	15/03/2022 00:00:00
 

@@ -65,7 +65,7 @@ vector<int> f(string s){
     return mp[s] ;
 }
 
-void solve(){
+void solve4(){
 
     string s = "2-1+1" ; 
     s = "2*3-4*5";
@@ -75,6 +75,51 @@ void solve(){
     Show(ans);nl;
 
 }
+
+ 
+    string simplifyPath(string path) {
+        //first split the files 
+        // in javascript or python this can be easily done with the split('/')
+        string str="" ;
+        vector<string> files;
+        int i = 0 , n = path.size() ;
+        for(int i = 0 ; i < n ; ++i){
+
+        while(i < n && path[i]!='/'){
+            str+=path[i++] ;
+            cout<<i<<" "<<str<< " "<<path[i]<<endl;
+                }
+        if(str.empty()||str=="." ) {str="" ;continue ; }
+
+        cout<<str<<" : ";
+        
+        if(str=="..")
+              {if(!files.empty())
+                files.pop_back() ;}
+
+        else 
+            files.push_back(str) ;                
+        
+        Show(files);
+        str="";
+        cout<<" : "<<str<<endl;
+        // i++;
+        
+        }
+        cout<<"Str "<<str<<endl;
+        
+        Show(files);nl;
+        string res = "/" ;
+        for(string s:files) res+=s + "/" ; 
+        if(res.size() > 1 )res.pop_back();
+        return res ; 
+    }
+
+    void solve(){
+        string s = "/a//b////c/d//././/..";
+        cout<<simplifyPath(s)<<endl;
+    }
+
 
 int main()
 {
