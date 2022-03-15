@@ -1,1 +1,1 @@
-​
+Stupid question took a lot of time to solve it .
