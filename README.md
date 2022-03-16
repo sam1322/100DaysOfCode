@@ -268,11 +268,13 @@
 
 ### Day	26 : Tuesday	15/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Did one leetcode question.
 
-**Thoughts :** 
+**Thoughts :** Today my start was a little early but lazy. Managed to woke up early but didn't do anything significant other than time waste.Just revising past questions today.
 
 **Link to work :**
+1) [1249. minimum remove to make valid parentheses ](1249-minimum-remove-to-make-valid-parentheses/)
+2) [1488. Avoid Flood in The City](avoid-flood-in-the-city/)
 
 ### Day	27 : Wednesday	16/03/2022 00:00:00
 
@@ -281,6 +283,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [946. validate stack sequences](946-validate-stack-sequences)
 
 ### Day	28 : Thursday	17/03/2022 00:00:00
 

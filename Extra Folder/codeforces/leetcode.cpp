@@ -26,100 +26,62 @@ typedef long long  ll;
 typedef pair<int,int> pii; 
 // sieve , binomial coeff , pascal 
 
-// recursion based algorithm
 
-map<string,vector<int>> mp ;
 
-vector<int> f(string s){
-    vector<int> res ;
-
-    if(mp.count(s) > 0)return mp[s] ; 
-
-    int n = s.size() ; 
-
-    for(int i = 0 ; i < n ; ++i){
-        char c = s[i] ; 
-        if(c=='+'||c=='-'||c=='*'){
-            vector<int> res1 = f(s.substr(0,i)) ; 
-            vector<int> res2 = f(s.substr(i+1)) ; 
-
-            for(auto i:res1 )
-            {
-                for(auto j:res2){
-                    if(c == '+')
-                        res.push_back(i+j);
-                    else if(c=='-')
-                        res.push_back(i-j);                    
-                    else if(c=='*')
-                        res.push_back(i*j) ; 
+     vector<int> avoidFlood(vector<int> &rains) {
+        unordered_map<int,int>mp ; 
+        set<int>st  ;
+        int n = rains.size() ; 
+        vector<int> ans(n,-1) ;
+        for(int i = 0 ; i < n ; ++i ){
+            if(rains[i] > 0 ){
+                int lake = rains[i]  ;
+                if(mp.count(lake)> 0 ){
+                    auto it = st.upper_bound(mp[lake]) ; 
+                    if(it!=st.end()){
+                        ans[*it ] = lake ; 
+                        st.erase(it); 
+                    }
+                    else{
+                        return {} ; 
+                    }
                 }
+
+                mp[lake] = i ; 
             }
+            else {
+                st.insert(i);
+                ans[i] = 1 ;
+            }
+
         }
+        return ans ; 
     }
 
-    if(res.empty()){
-        res.push_back(stoi(s));
-    }
+void solve(){
+    // vector<vi> a= {{1,2,3,4},
+    // {69,0,0,0,69} , 
+    // {0 ,1,1} , 
+    // {1,0,2,0,2,1}
 
-    mp[s] = res ; 
-    return mp[s] ;
-}
+    // };
 
-void solve4(){
-
-    string s = "2-1+1" ; 
-    s = "2*3-4*5";
-    mp.clear();
-    vector<int> ans = f(s);
+    // fr(i,a.size())
+    //  {Show(avoidFlood(a[i]));nl;}
     
-    Show(ans);nl;
+
+    vi a= {1,2,3,4} ;
+     Show(avoidFlood(a));nl;
+    a = {69,0,0,0,69} ; 
+     Show(avoidFlood(a));nl;
+    a ={0 ,1,1} ;
+     Show(avoidFlood(a));nl;
+    a = {1,0,2,0,2,1};
+     Show(avoidFlood(a));nl;
+
+    
 
 }
-
- 
-    string simplifyPath(string path) {
-        //first split the files 
-        // in javascript or python this can be easily done with the split('/')
-        string str="" ;
-        vector<string> files;
-        int i = 0 , n = path.size() ;
-        for(int i = 0 ; i < n ; ++i){
-
-        while(i < n && path[i]!='/'){
-            str+=path[i++] ;
-            cout<<i<<" "<<str<< " "<<path[i]<<endl;
-                }
-        if(str.empty()||str=="." ) {str="" ;continue ; }
-
-        cout<<str<<" : ";
-        
-        if(str=="..")
-              {if(!files.empty())
-                files.pop_back() ;}
-
-        else 
-            files.push_back(str) ;                
-        
-        Show(files);
-        str="";
-        cout<<" : "<<str<<endl;
-        // i++;
-        
-        }
-        cout<<"Str "<<str<<endl;
-        
-        Show(files);nl;
-        string res = "/" ;
-        for(string s:files) res+=s + "/" ; 
-        if(res.size() > 1 )res.pop_back();
-        return res ; 
-    }
-
-    void solve(){
-        string s = "/a//b////c/d//././/..";
-        cout<<simplifyPath(s)<<endl;
-    }
-
 
 int main()
 {
@@ -234,3 +196,98 @@ void solve3(){
 
 
 }
+
+
+// recursion based algorithm
+
+// map<string,vector<int>> mp ;
+
+// vector<int> f(string s){
+//     vector<int> res ;
+
+//     if(mp.count(s) > 0)return mp[s] ; 
+
+//     int n = s.size() ; 
+
+//     for(int i = 0 ; i < n ; ++i){
+//         char c = s[i] ; 
+//         if(c=='+'||c=='-'||c=='*'){
+//             vector<int> res1 = f(s.substr(0,i)) ; 
+//             vector<int> res2 = f(s.substr(i+1)) ; 
+
+//             for(auto i:res1 )
+//             {
+//                 for(auto j:res2){
+//                     if(c == '+')
+//                         res.push_back(i+j);
+//                     else if(c=='-')
+//                         res.push_back(i-j);                    
+//                     else if(c=='*')
+//                         res.push_back(i*j) ; 
+//                 }
+//             }
+//         }
+//     }
+
+//     if(res.empty()){
+//         res.push_back(stoi(s));
+//     }
+
+//     mp[s] = res ; 
+//     return mp[s] ;
+// }
+
+// void solve4(){
+
+//     string s = "2-1+1" ; 
+//     s = "2*3-4*5";
+//     mp.clear();
+//     vector<int> ans = f(s);
+    
+//     Show(ans);nl;
+
+// }
+
+ 
+//     string simplifyPath(string path) {
+//         //first split the files 
+//         // in javascript or python this can be easily done with the split('/')
+//         string str="" ;
+//         vector<string> files;
+//         int i = 0 , n = path.size() ;
+//         for(int i = 0 ; i < n ; ++i){
+
+//         while(i < n && path[i]!='/'){
+//             str+=path[i++] ;
+//             cout<<i<<" "<<str<< " "<<path[i]<<endl;
+//                 }
+//         if(str.empty()||str=="." ) {str="" ;continue ; }
+
+//         cout<<str<<" : ";
+        
+//         if(str=="..")
+//               {if(!files.empty())
+//                 files.pop_back() ;}
+
+//         else 
+//             files.push_back(str) ;                
+        
+//         Show(files);
+//         str="";
+//         cout<<" : "<<str<<endl;
+//         // i++;
+        
+//         }
+//         cout<<"Str "<<str<<endl;
+        
+//         Show(files);nl;
+//         string res = "/" ;
+//         for(string s:files) res+=s + "/" ; 
+//         if(res.size() > 1 )res.pop_back();
+//         return res ; 
+//     }
+
+//     void solve(){
+//         string s = "/a//b////c/d//././/..";
+//         cout<<simplifyPath(s)<<endl;
+//     }
