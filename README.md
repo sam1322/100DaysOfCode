@@ -276,11 +276,11 @@
 1) [1249. minimum remove to make valid parentheses ](1249-minimum-remove-to-make-valid-parentheses/)
 2) [1488. Avoid Flood in The City](avoid-flood-in-the-city/)
 
-### Day	27 : Wednesday	16/03/2022 00:00:00
+## Day	27 : Wednesday	16/03/2022 19:30:00
 
-**Today's Progress :**
+**Today's Progress :** Today I did one leetcode question.
 
-**Thoughts :** 
+**Thoughts :** Trying to focus on operating systems also.
 
 **Link to work :**
 1) [946. validate stack sequences](946-validate-stack-sequences)
