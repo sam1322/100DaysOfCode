@@ -289,9 +289,9 @@
 
 ### Day	28 : Thursday	17/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Today I did three leetcode questions . 
 
-**Thoughts :** 
+**Thoughts :** For some days I have again started this bad habit of watching youtube hours together. Need to stop it before it messes me up.
 
 **Link to work :**
 1) [97. Interleaving String](97-interleaving-string/)
