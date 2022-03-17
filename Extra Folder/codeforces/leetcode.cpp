@@ -28,60 +28,109 @@ typedef pair<int,int> pii;
 
 
 
-     vector<int> avoidFlood(vector<int> &rains) {
-        unordered_map<int,int>mp ; 
-        set<int>st  ;
-        int n = rains.size() ; 
-        vector<int> ans(n,-1) ;
-        for(int i = 0 ; i < n ; ++i ){
-            if(rains[i] > 0 ){
-                int lake = rains[i]  ;
-                if(mp.count(lake)> 0 ){
-                    auto it = st.upper_bound(mp[lake]) ; 
-                    if(it!=st.end()){
-                        ans[*it ] = lake ; 
-                        st.erase(it); 
-                    }
-                    else{
-                        return {} ; 
-                    }
-                }
+    //  vector<int> avoidFlood(vector<int> &rains) {
+    //     unordered_map<int,int>mp ; 
+    //     set<int>st  ;
+    //     int n = rains.size() ; 
+    //     vector<int> ans(n,-1) ;
+    //     for(int i = 0 ; i < n ; ++i ){
+    //         if(rains[i] > 0 ){
+    //             int lake = rains[i]  ;
+    //             if(mp.count(lake)> 0 ){
+    //                 auto it = st.upper_bound(mp[lake]) ; 
+    //                 if(it!=st.end()){
+    //                     ans[*it ] = lake ; 
+    //                     st.erase(it); 
+    //                 }
+    //                 else{
+    //                     return {} ; 
+    //                 }
+    //             }
 
-                mp[lake] = i ; 
-            }
-            else {
-                st.insert(i);
-                ans[i] = 1 ;
-            }
+    //             mp[lake] = i ; 
+    //         }
+    //         else {
+    //             st.insert(i);
+    //             ans[i] = 1 ;
+    //         }
 
+    //     }
+    //     return ans ; 
+    // }
+
+// vector<vector<int>>mp;
+//     string K ; 
+//     string a ,b ; 
+//     bool helper(int i,int j , string &out){
+        
+//         if( i >= a.size()  && j >= b.size() ){
+//             return mp[i][j] = (out == K) ; 
+//         }
+//         cout<<i<<" "<<j<<" "<<out<<" "<<a[i]<<" "<<b[j]<<" "<<K <<endl;
+
+//         if(mp[i][j] !=-1 )return mp[i][j] ; 
+
+//         if(i < a.size() && a[i]==K[out.size()])
+//         {   out.push_back(a[i]) ;
+//             if(helper(i + 1 , j , out )) return mp[i][j] = true ;      
+//             out.pop_back() ; 
+//         }
+        
+//         if( j < b.size() && b[j]==K[out.size()])
+//         {   out.push_back(b[j]) ;
+//             if(helper( i , j + 1 , out )) return mp[i][j] = true ;  
+//             out.pop_back() ;
+//         }
+//         return mp[i][j] = false ;
+//     }
+    
+//     bool isInterleave(string s1, string s2, string s3) {
+//         mp.assign(s1.size() + 1 ,vector<int>(s2.size() + 1 , -1 )) ;
+//         K =s3 ; 
+//         a = s1 ; 
+//         b = s2 ;
+//         string ans = "" ; 
+//         return helper(0,0,ans) ;
+//     }
+
+    int maximumSwap(int num) {
+        string s = to_string(num) ;
+        string r = s ; 
+        sort(s.begin(),s.end(),greater<char>()) ; 
+        int n = s.size() ; 
+        for(int i = 0 ; i < n ;++i){
+            if(s[i]!=r[i] ){
+                int j ;
+                for( j = n - 1 ; j >i ;--j ){if (r[j]==s[i])break ;}
+                cout<<i<< " "<<s[i]<<" " <<r[i] <<" "<<j<<endl;
+                swap(r[i], r[j]) ;
+                break ;
+            }
         }
-        return ans ; 
+        return stoi(r) ;
     }
 
 void solve(){
-    // vector<vi> a= {{1,2,3,4},
-    // {69,0,0,0,69} , 
-    // {0 ,1,1} , 
-    // {1,0,2,0,2,1}
-
-    // };
-
-    // fr(i,a.size())
-    //  {Show(avoidFlood(a[i]));nl;}
-    
-
-    vi a= {1,2,3,4} ;
-     Show(avoidFlood(a));nl;
-    a = {69,0,0,0,69} ; 
-     Show(avoidFlood(a));nl;
-    a ={0 ,1,1} ;
-     Show(avoidFlood(a));nl;
-    a = {1,0,2,0,2,1};
-     Show(avoidFlood(a));nl;
-
-    
-
+    int num = 2746 ; 
+    // num = 3235432;
+    cout<< maximumSwap(num)<<endl;
 }
+
+// void solved(){
+//     string a,b,c ;
+//     a = "abaaacbacaab" ; 
+//     b = "bcccababccc" ;
+//     c = "bcccabaaaaabccaccbacabb" ;
+
+
+//     // a = "aabcc"; 
+//     // b = "dbbca";
+//     // c = "aadbbcbcac";
+
+//     cout <<isInterleave(a,b,c)<<endl;
+// }
+
+// 
 
 int main()
 {
@@ -291,3 +340,28 @@ void solve3(){
 //         string s = "/a//b////c/d//././/..";
 //         cout<<simplifyPath(s)<<endl;
 //     }
+
+// void solve(){
+//     // vector<vi> a= {{1,2,3,4},
+//     // {69,0,0,0,69} , 
+//     // {0 ,1,1} , 
+//     // {1,0,2,0,2,1}
+
+//     // };
+
+//     // fr(i,a.size())
+//     //  {Show(avoidFlood(a[i]));nl;}
+    
+
+//     vi a= {1,2,3,4} ;
+//      Show(avoidFlood(a));nl;
+//     a = {69,0,0,0,69} ; 
+//      Show(avoidFlood(a));nl;
+//     a ={0 ,1,1} ;
+//      Show(avoidFlood(a));nl;
+//     a = {1,0,2,0,2,1};
+//      Show(avoidFlood(a));nl;
+
+    
+
+// }

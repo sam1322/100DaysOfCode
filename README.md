@@ -292,6 +292,10 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [97. Interleaving String](97-interleaving-string/)
+2) [856. Score of Parentheses](856-score-of-parentheses/)
+3) [670. Maximum Swap](670-maximum-swap/)
+
 
 ### Day	29 : Friday	    18/03/2022 00:00:00
 
