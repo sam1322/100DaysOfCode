@@ -2,6 +2,8 @@
 
 ##### [Important Leetcode questions to revise](important_Leetcode_questions.md)
 
+### Also keeping log on this [spreadsheet](https://docs.google.com/spreadsheets/d/1VkLeLcU2mHHIF-iZlrQCohrGKhSNPaJ_euySLOaRBQA/edit?usp=sharing)
+
 # 100 Days Of Code - Log
 
 ### Day 0:17th February 2022 
