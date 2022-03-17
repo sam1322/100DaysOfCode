@@ -3,8 +3,8 @@ public:
 vector<vector<int>>mp;
     string K ; 
     string a ,b ; 
+//       By  Recursion method 
     bool helper(int i,int j , string &out){
-        
         if( i >= a.size()  && j >= b.size() ){
             return mp[i][j] = (out == K) ; 
         }
@@ -26,6 +26,28 @@ vector<vector<int>>mp;
         return mp[i][j] = false ;
     }
     
+//     By iteration method
+    bool helper(){
+        if(K.length() != a.length() + b.length())
+        return false;
+    
+    bool table[a.length()+1][b.length()+1];
+    
+    for(int i=0; i<a.length()+1; i++)
+        for(int j=0; j< b.length()+1; j++){
+            if(i==0 && j==0)
+                table[i][j] = true;
+            else if(i == 0)
+                table[i][j] = ( table[i][j-1] && b[j-1] == K[i+j-1]);
+            else if(j == 0)
+                table[i][j] = ( table[i-1][j] && a[i-1] == K[i+j-1]);
+            else
+                table[i][j] = (table[i-1][j] && a[i-1] == K[i+j-1] ) || (table[i][j-1] && b[j-1] == K[i+j-1] );
+        }
+        
+    return table[a.length()][b.length()];
+    }
+    
     
     bool isInterleave(string s1, string s2, string s3) {
         mp.assign(s1.size()+1 ,vector<int>(s2.size()+1 ,-1)) ;
@@ -33,6 +55,7 @@ vector<vector<int>>mp;
         a = s1 ; 
         b = s2 ;
         string ans = "" ; 
-        return helper(0,0,ans) ;
+        // return helper(0,0,ans) ;
+        return helper();
     }
 };
