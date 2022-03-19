@@ -313,9 +313,9 @@
 
 ### Day	30 : Saturday	19/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Today I did 3 leetcode questions.
 
-**Thoughts :** 
+**Thoughts :** Kind of stuck in platue hell of improvement.
 
 **Link to work :**
 1) [895. Maximum Frequency Stack](895-maximum-frequency-stack)
