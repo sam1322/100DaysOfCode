@@ -318,6 +318,9 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [895. Maximum Frequency Stack](895-maximum-frequency-stack)
+2) [1605. Find Valid Matrix Given Row and Column Sums](1605-find-valid-matrix-given-row-and-column-sums)
+3) [1306. Jump Game III](1306-jump-game-iii)
 
 ### Day	31 : Sunday	    20/03/2022 00:00:00
 

@@ -93,27 +93,50 @@ typedef pair<int,int> pii;
 //         return helper(0,0,ans) ;
 //     }
 
-    int maximumSwap(int num) {
-        string s = to_string(num) ;
-        string r = s ; 
-        sort(s.begin(),s.end(),greater<char>()) ; 
-        int n = s.size() ; 
-        for(int i = 0 ; i < n ;++i){
-            if(s[i]!=r[i] ){
-                int j ;
-                for( j = n - 1 ; j >i ;--j ){if (r[j]==s[i])break ;}
-                cout<<i<< " "<<s[i]<<" " <<r[i] <<" "<<j<<endl;
-                swap(r[i], r[j]) ;
-                break ;
+    // int maximumSwap(int num) {
+    //     string s = to_string(num) ;
+    //     string r = s ; 
+    //     sort(s.begin(),s.end(),greater<char>()) ; 
+    //     int n = s.size() ; 
+    //     for(int i = 0 ; i < n ;++i){
+    //         if(s[i]!=r[i] ){
+    //             int j ;
+    //             for( j = n - 1 ; j >i ;--j ){if (r[j]==s[i])break ;}
+    //             cout<<i<< " "<<s[i]<<" " <<r[i] <<" "<<j<<endl;
+    //             swap(r[i], r[j]) ;
+    //             break ;
+    //         }
+    //     }
+    //     return stoi(r) ;
+    // }
+
+// void solve(){
+//     int num = 2746 ; 
+//     // num = 3235432;
+//     cout<< maximumSwap(num)<<endl;
+// }
+
+vector<vector<int>> restoreMatrix(vector<int>row, vector<int> col) {
+        int m = row.size(), n = col.size();
+        vector<vector<int>> A(m, vector<int>(n, 0));
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0 ; j < n; ++j) {
+                A[i][j] = min(row[i], col[j]);
+                row[i] -= A[i][j];
+                col[j] -= A[i][j];
             }
         }
-        return stoi(r) ;
+        return A;
     }
 
 void solve(){
-    int num = 2746 ; 
-    // num = 3235432;
-    cout<< maximumSwap(num)<<endl;
+    vector<vector<int>> v = restoreMatrix({5 , 7 , 10} , {8 , 6 ,8}) ; 
+    for(int i =0 ; i < 3 ;++i){
+        for(int j = 0 ; j < 3 ; ++j){
+            cout<<v[i][j]<<" ";
+        }
+        cout<<endl;
+    }
 }
 
 // void solved(){
