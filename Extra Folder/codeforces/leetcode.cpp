@@ -26,6 +26,60 @@ typedef long long  ll;
 typedef pair<int,int> pii; 
 // sieve , binomial coeff , pascal 
 
+int N ;
+    vector<int>ans ;
+    bool f(vector<int> &a ,int n , int i , int x, int y ){
+        cout<<"x = "<<x<<" Y = "<<y<<endl;
+        if(i<0 || n <= 0){
+            if(x >= y)return false ; 
+            if(n > 0 )ans.back() +=n ; 
+            cout<<x <<" "<<y<<endl;
+            return true ; 
+        }
+
+        cout<<"n = " <<n<< " ; a["<<i<<"] = " <<a[i]<<" ; x =  "<<x<<" ; y =  "<<y<<endl; 
+        int k = i ;                 
+        
+        if(a[i] + 1 <=n)
+        {
+            ans[i] = a[i] + 1;
+            n-=a[i] + 1 ;
+            y+=i ;
+            if( f(a,n,i-1,x,y) )return true ; 
+            y-=i ; 
+            n+=a[i]+ 1;
+            ans[i] = 0 ;
+
+        }    
+
+        if(a[i]==0)k = 0 ;
+        x+=k; 
+        // cout<<"X " <<x <<endl;
+        bool K =  f(a,n,i-1,x,y) ;
+        x-=k ;         
+        if(K)return true ; 
+    
+        return false ;
+    }
+    
+    vector<int> maximumBobPoints(int numArrows, vector<int>& aliceArrows) {
+        // ans.clear() ;
+        N = 12 ; 
+        ans.assign(N,0) ;
+       if( f(aliceArrows,numArrows,N-1,0,0 ) ) cout<<"YES"<<endl;
+        return ans ;
+    }
+
+    void solve(){
+        N = 9; 
+        vector<int>a = {1,1,0,1,0,0,2,1,0,1,2,0} ; 
+        Show(a);nl;
+        
+        vector<int> v = maximumBobPoints(N , a ) ;
+        Show(v);nl; 
+        Show(a);nl;
+    }
+
 
 
     //  vector<int> avoidFlood(vector<int> &rains) {
@@ -116,28 +170,28 @@ typedef pair<int,int> pii;
 //     cout<< maximumSwap(num)<<endl;
 // }
 
-vector<vector<int>> restoreMatrix(vector<int>row, vector<int> col) {
-        int m = row.size(), n = col.size();
-        vector<vector<int>> A(m, vector<int>(n, 0));
-        for (int i = 0; i < m; ++i) {
-            for (int j = 0 ; j < n; ++j) {
-                A[i][j] = min(row[i], col[j]);
-                row[i] -= A[i][j];
-                col[j] -= A[i][j];
-            }
-        }
-        return A;
-    }
+// vector<vector<int>> restoreMatrix(vector<int>row, vector<int> col) {
+//         int m = row.size(), n = col.size();
+//         vector<vector<int>> A(m, vector<int>(n, 0));
+//         for (int i = 0; i < m; ++i) {
+//             for (int j = 0 ; j < n; ++j) {
+//                 A[i][j] = min(row[i], col[j]);
+//                 row[i] -= A[i][j];
+//                 col[j] -= A[i][j];
+//             }
+//         }
+//         return A;
+//     }
 
-void solve(){
-    vector<vector<int>> v = restoreMatrix({5 , 7 , 10} , {8 , 6 ,8}) ; 
-    for(int i =0 ; i < 3 ;++i){
-        for(int j = 0 ; j < 3 ; ++j){
-            cout<<v[i][j]<<" ";
-        }
-        cout<<endl;
-    }
-}
+// void solve(){
+//     vector<vector<int>> v = restoreMatrix({5 , 7 , 10} , {8 , 6 ,8}) ; 
+//     for(int i =0 ; i < 3 ;++i){
+//         for(int j = 0 ; j < 3 ; ++j){
+//             cout<<v[i][j]<<" ";
+//         }
+//         cout<<endl;
+//     }
+// }
 
 // void solved(){
 //     string a,b,c ;

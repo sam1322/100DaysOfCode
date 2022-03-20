@@ -324,11 +324,14 @@
 
 ### Day	31 : Sunday	    20/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Today I did 3 questions.
 
 **Thoughts :** 
 
 **Link to work :**
+1) [1007. Minimum Domino Rotations For Equal Row](1007-minimum-domino-rotations-for-equal-row)
+2) [2211. Count Collisions on a Road](2211-count-collisions-on-a-road)
+3) [2210. Count Hills and Valleys in an Array](2210-count-hills-and-valleys-in-an-array)
 
 ### Day	32 : Monday	    21/03/2022 00:00:00
 
