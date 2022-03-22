@@ -1,6 +1,6 @@
 ### This is I guess my 4th attempt on this challenge , but this time I really want to finish this challenge .
 
-##### [Important Leetcode questions to revise](important_Leetcode_questions.md)
+<!-- ##### [Important Leetcode questions to revise](important_Leetcode_questions.md) -->
 
 ### Also keeping log on this [spreadsheet](https://docs.google.com/spreadsheets/d/1VkLeLcU2mHHIF-iZlrQCohrGKhSNPaJ_euySLOaRBQA/edit?usp=sharing)
 
@@ -326,7 +326,7 @@
 
 **Today's Progress :** Today I did 3 questions.
 
-**Thoughts :** 
+**Thoughts :** Today was a really busy day due to preparation of btp presentation the next day.
 
 **Link to work :**
 1) [1007. Minimum Domino Rotations For Equal Row](1007-minimum-domino-rotations-for-equal-row)
@@ -335,19 +335,21 @@
 
 ### Day	32 : Monday	    21/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Did one question from leetcode daily challenge	
 
-**Thoughts :** 
+**Thoughts :** Played minecraft rest of the day.
 
 **Link to work :**
+1) [763. Partition Labels](763-partition-labels)
 
 ### Day	33 : Tuesday	22/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Did 1 question from leetcode.
 
-**Thoughts :** 
+**Thoughts :** Was busy watching hxh today .
 
 **Link to work :**
+1) [1663. Smallest String With A Given Numeric Value](1663-smallest-string-with-a-given-numeric-value )
 
 ### Day	34 : Wednesday	23/03/2022 00:00:00
 

@@ -26,59 +26,87 @@ typedef long long  ll;
 typedef pair<int,int> pii; 
 // sieve , binomial coeff , pascal 
 
-int N ;
-    vector<int>ans ;
-    bool f(vector<int> &a ,int n , int i , int x, int y ){
-        cout<<"x = "<<x<<" Y = "<<y<<endl;
-        if(i<0 || n <= 0){
-            if(x >= y)return false ; 
-            if(n > 0 )ans.back() +=n ; 
-            cout<<x <<" "<<y<<endl;
-            return true ; 
+string getSmallestString(int n, int k) {
+        string s = "" ; 
+        int a = 0 , b = 0 , c = 0 , l  = 0; 
+        for(int i = 0 ; i  < n - 1  ; ++i){
+            for(int j =  1 ; j <= 26; ++j) {
+                a = (k - j);
+                b = (n- i -1) ; 
+                l = a/ b ;
+                if(a%b)l++;
+                // cout<<i<<" "<<j<<" "<<l <<" "<<s<<" "<<k<<endl;
+                if( l <= 26 && l > 0 ){
+                    k-=j ; 
+                    s+='a' + j -  1;
+                    break; 
+                }
+            }        
         }
 
-        cout<<"n = " <<n<< " ; a["<<i<<"] = " <<a[i]<<" ; x =  "<<x<<" ; y =  "<<y<<endl; 
-        int k = i ;                 
+            s+='a' + k - 1 ;
+        return s ; 
+    }
+
+void solve(){
+    int n = 5 ; 
+    int k  = 73 ; 
+    cout<<getSmallestString(n,k)<<endl;
+}
+
+// int N ;
+//     vector<int>ans ;
+//     bool f(vector<int> &a ,int n , int i , int x, int y ){
+//         cout<<"x = "<<x<<" Y = "<<y<<endl;
+//         if(i<0 || n <= 0){
+//             if(x >= y)return false ; 
+//             if(n > 0 )ans.back() +=n ; 
+//             cout<<x <<" "<<y<<endl;
+//             return true ; 
+//         }
+
+//         cout<<"n = " <<n<< " ; a["<<i<<"] = " <<a[i]<<" ; x =  "<<x<<" ; y =  "<<y<<endl; 
+//         int k = i ;                 
         
-        if(a[i] + 1 <=n)
-        {
-            ans[i] = a[i] + 1;
-            n-=a[i] + 1 ;
-            y+=i ;
-            if( f(a,n,i-1,x,y) )return true ; 
-            y-=i ; 
-            n+=a[i]+ 1;
-            ans[i] = 0 ;
+//         if(a[i] + 1 <=n)
+//         {
+//             ans[i] = a[i] + 1;
+//             n-=a[i] + 1 ;
+//             y+=i ;
+//             if( f(a,n,i-1,x,y) )return true ; 
+//             y-=i ; 
+//             n+=a[i]+ 1;
+//             ans[i] = 0 ;
 
-        }    
+//         }    
 
-        if(a[i]==0)k = 0 ;
-        x+=k; 
-        // cout<<"X " <<x <<endl;
-        bool K =  f(a,n,i-1,x,y) ;
-        x-=k ;         
-        if(K)return true ; 
+//         if(a[i]==0)k = 0 ;
+//         x+=k; 
+//         // cout<<"X " <<x <<endl;
+//         bool K =  f(a,n,i-1,x,y) ;
+//         x-=k ;         
+//         if(K)return true ; 
     
-        return false ;
-    }
+//         return false ;
+//     }
     
-    vector<int> maximumBobPoints(int numArrows, vector<int>& aliceArrows) {
-        // ans.clear() ;
-        N = 12 ; 
-        ans.assign(N,0) ;
-       if( f(aliceArrows,numArrows,N-1,0,0 ) ) cout<<"YES"<<endl;
-        return ans ;
-    }
+//     vector<int> maximumBobPoints(int numArrows, vector<int>& aliceArrows) {
+//         // ans.clear() ;
+//         N = 12 ; 
+//         ans.assign(N,0) ;
+//        if( f(aliceArrows,numArrows,N-1,0,0 ) ) cout<<"YES"<<endl;
+//         return ans ;
+//     }
 
-    void solve(){
-        N = 9; 
-        vector<int>a = {1,1,0,1,0,0,2,1,0,1,2,0} ; 
-        Show(a);nl;
+//     void solve(){
+//         N = 9; 
+//         vector<int>a = {1,1,0,1,0,0,2,1,0,1,2,0} ; 
+//         Show(a);nl;
         
-        vector<int> v = maximumBobPoints(N , a ) ;
-        Show(v);nl; 
-        Show(a);nl;
-    }
+//         vector<int> v = maximumBobPoints(N , a ) ;
+//         Show(v);nl; 
+//         Show(a);nl;
+//     }
 
 
 
