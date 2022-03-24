@@ -358,14 +358,16 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [991. Broken Calculator](991-broken-calculator)
 
 ### Day	35 : Thursday	24/03/2022 00:00:00
 
 **Today's Progress :**
 
-**Thoughts :** 
+**Thoughts :** Progress kind of slow due to me procrastinating by watching hxh chimera arc.
 
 **Link to work :**
+1) [881. Boats to Save People](881-boats-to-save-people)
 
 ### Day	36 : Friday	    25/03/2022 00:00:00
 
