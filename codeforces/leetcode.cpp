@@ -26,32 +26,68 @@ typedef long long  ll;
 typedef pair<int,int> pii; 
 // sieve , binomial coeff , pascal 
 
-string getSmallestString(int n, int k) {
-        string s = "" ; 
-        int a = 0 , b = 0 , c = 0 , l  = 0; 
-        for(int i = 0 ; i  < n - 1  ; ++i){
-            for(int j =  1 ; j <= 26; ++j) {
-                a = (k - j);
-                b = (n- i -1) ; 
-                l = a/ b ;
-                if(a%b)l++;
-                // cout<<i<<" "<<j<<" "<<l <<" "<<s<<" "<<k<<endl;
-                if( l <= 26 && l > 0 ){
-                    k-=j ; 
-                    s+='a' + j -  1;
-                    break; 
-                }
-            }        
-        }
+    int dif(vector<int> &a)
+    {
+        return a[0] - a[1] ; 
+    }
+    int twoCitySchedCost(vector<vector<int>>& a) {
+        int sum0 = 0 , sum1 = 0 , n = a.size()  ;
+        
+        // for(int i = 0 ; i < n ; ++i ){
+        // sum0+=a[i][0];    
+        // sum1+=a[i][1];    
+        // }
 
-            s+='a' + k - 1 ;
-        return s ; 
+        sort(a.begin(),a.end(),[](const vector<int> A ,const vector<int> b ){
+            int a1 = (A[0] - A[1]);
+            int b1 = (b[0] - b[1])   ; 
+            return a1 < b1 ; 
+        } ) ; 
+        int c1 = 0 , c2 = 0 ,ans = 0 ; 
+        for(int i = 0 ; i < n ; ++i){
+        // for(int i = 0 ; i < a.size() / 2  ;++i){
+            cout<<a[i][0]<<" "<<a[i][1] <<" "<<ans<<endl;
+            // ans += a[i][0] + a[i + n / 2][1];
+            if( i < n/2 )ans+=a[i][0] ; 
+            else 
+                ans+=a[i][1] ; 
+            // if(dif(A) < 0){
+            //     if(c1 < n/2){
+            //         ans+=A[0] ;
+            //         c1++;
+            //     }
+            //     else {
+            //         ans+=A[1] ; 
+            //         c2++ ; 
+            //     }                    
+            // }
+            // else {
+            //     if(c2 < n/2){
+            //         ans+=A[1] ;
+            //         c2++;
+            //     }
+            //     else {
+            //         ans+=A[0] ; 
+            //         c1++ ; 
+            //     }
+            // }
+        }
+        return ans ;
     }
 
 void solve(){
-    int n = 5 ; 
-    int k  = 73 ; 
-    cout<<getSmallestString(n,k)<<endl;
+    vector<vector<int> > a = {
+        {10,20},{30,200},{400,50},{30,20}
+    } ; 
+    cout<<twoCitySchedCost(a)<<endl;
+
+    a = {{259,770},{448,54},{926,667},{184,139},{840,118},{577,469} } ;
+
+    cout<<twoCitySchedCost(a)<<endl;
+    a = {{515,563},{451,713},{537,709},{343,819},{855,779},{457,60},{650,359},{631,42} } ;
+
+
+    cout<<twoCitySchedCost(a)<<endl;
 }
 
 // int N ;

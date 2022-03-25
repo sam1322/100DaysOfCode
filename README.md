@@ -369,14 +369,17 @@
 **Link to work :**
 1) [881. Boats to Save People](881-boats-to-save-people)
 
-### Day	36 : Friday	    25/03/2022 00:00:00
+### Day	36 : Friday	    25/03/2022 09:50:00
 
 **Today's Progress :**
 
 **Thoughts :** 
 
 **Link to work :**
-
+1) [1029. Two City Scheduling](1029-two-city-scheduling)
+2) [2207. Maximize Number of Subsequences in a String](2207-maximize-number-of-subsequences-in-a-string)
+3) []()
+4) []()
 ### Day	37 : Saturday	26/03/2022 00:00:00
 
 **Today's Progress :**
