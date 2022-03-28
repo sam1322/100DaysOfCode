@@ -399,7 +399,7 @@
 
 ### Day	39 : Monday	    28/03/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Progress has been downhill since the last week , but I have maintained my streak thanks to my persistence of doing atleast one question.
 
 **Thoughts :** 
 
