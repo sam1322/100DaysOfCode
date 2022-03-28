@@ -405,7 +405,8 @@
 
 **Link to work :**
 1) [81. Search in Rotated Sorted Array II](81-search-in-rotated-sorted-array-ii)
-
+2) [2212. Maximum Points in an Archery Competition](2212-maximum-points-in-an-archery-competition)
+3) [2208. Minimum Operations to Halve Array Sum](2208-minimum-operations-to-halve-array-sum)
 
 ### Day	40 : Tuesday	29/03/2022 00:00:00
 
