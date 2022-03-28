@@ -373,20 +373,20 @@
 
 **Today's Progress :**
 
-**Thoughts :** 
+**Thoughts :** Today was really a good day, went to my college fest moksha for the first time in 2 years. 
 
 **Link to work :**
 1) [1029. Two City Scheduling](1029-two-city-scheduling)
 2) [2207. Maximize Number of Subsequences in a String](2207-maximize-number-of-subsequences-in-a-string)
-3) []()
-4) []()
+
 ### Day	37 : Saturday	26/03/2022 00:00:00
 
 **Today's Progress :**
 
-**Thoughts :** 
+**Thoughts :** Today was a lazy day.
 
 **Link to work :**
+1) [704. Binary Search](704-binary-search)
 
 ### Day	38 : Sunday	    27/03/2022 00:00:00
 
@@ -395,6 +395,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [1337. The K Weakest Rows in a Matrix](1337-the-k-weakest-rows-in-a-matrix)
 
 ### Day	39 : Monday	    28/03/2022 00:00:00
 
@@ -403,6 +404,8 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [81. Search in Rotated Sorted Array II](81-search-in-rotated-sorted-array-ii)
+
 
 ### Day	40 : Tuesday	29/03/2022 00:00:00
 

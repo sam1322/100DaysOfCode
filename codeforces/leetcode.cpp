@@ -26,69 +26,138 @@ typedef long long  ll;
 typedef pair<int,int> pii; 
 // sieve , binomial coeff , pascal 
 
-    int dif(vector<int> &a)
-    {
-        return a[0] - a[1] ; 
+struct compare{
+  public:
+  bool operator()(vector<int > &a,vector<int> & b) // overloading both operators 
+  {
+      // return a.w < b.w: // if you want increasing order;(i.e increasing for maxPQ)
+      // return a.w > b.w // if you want reverse of default order;(i.e decreasing for minPQ)
+    if(a[0] == b[0] ){
+        return a[1] > b[1] ; 
     }
-    int twoCitySchedCost(vector<vector<int>>& a) {
-        int sum0 = 0 , sum1 = 0 , n = a.size()  ;
-        
-        // for(int i = 0 ; i < n ; ++i ){
-        // sum0+=a[i][0];    
-        // sum1+=a[i][1];    
-        // }
+    return a[0] > b[0] ; 
 
-        sort(a.begin(),a.end(),[](const vector<int> A ,const vector<int> b ){
-            int a1 = (A[0] - A[1]);
-            int b1 = (b[0] - b[1])   ; 
-            return a1 < b1 ; 
-        } ) ; 
-        int c1 = 0 , c2 = 0 ,ans = 0 ; 
-        for(int i = 0 ; i < n ; ++i){
-        // for(int i = 0 ; i < a.size() / 2  ;++i){
-            cout<<a[i][0]<<" "<<a[i][1] <<" "<<ans<<endl;
-            // ans += a[i][0] + a[i + n / 2][1];
-            if( i < n/2 )ans+=a[i][0] ; 
-            else 
-                ans+=a[i][1] ; 
-            // if(dif(A) < 0){
-            //     if(c1 < n/2){
-            //         ans+=A[0] ;
-            //         c1++;
-            //     }
-            //     else {
-            //         ans+=A[1] ; 
-            //         c2++ ; 
-            //     }                    
-            // }
-            // else {
-            //     if(c2 < n/2){
-            //         ans+=A[1] ;
-            //         c2++;
-            //     }
-            //     else {
-            //         ans+=A[0] ; 
-            //         c1++ ; 
-            //     }
-            // }
+   }
+};
+
+ vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
+    priority_queue<vector<int> , vector<vector<int>> , compare> q ; 
+    vector<int> ans; 
+    int n = mat.size() ; 
+    if(n==0||k==0)return ans; 
+    int m = mat[0].size() ; 
+    for(int i = 0 ; i < n ; ++i ){
+        int c =0 ;
+        for(int j = 0 ; j < m ; ++j ){
+            if(mat[i][j]==0){
+                q.push({c,i}) ; 
+                break ; 
+            }
+            c++ ; 
         }
-        return ans ;
     }
+    int l = 0 ; 
+    while(!q.empty() && k-- ){
+        vi V = q.top() ; 
+        cout<<"index "<< l++ <<" ";
+        Show(V);nl ; 
+        ans.push_back(V[1]) ; 
+        q.pop() ; 
+    }
+
+    while(!q.empty()  ){
+        vi V = q.top() ; 
+        cout<<"index "<< l++ <<" ";
+         Show(V);nl ; 
+        // ans.push_back(q.top()[1]) ; 
+        q.pop() ; 
+    }
+    return ans ;
+}
+
+
 
 void solve(){
-    vector<vector<int> > a = {
-        {10,20},{30,200},{400,50},{30,20}
-    } ; 
-    cout<<twoCitySchedCost(a)<<endl;
+       vector<vi> v = {{1,1,0,0,0},
+         {1,1,1,1,0},
+         {1,0,0,0,0},
+         {1,1,0,0,0},
+         {1,1,1,1,1}
+     };
+ int k = 3 ;
 
-    a = {{259,770},{448,54},{926,667},{184,139},{840,118},{577,469} } ;
+        v  = {{1,0,0,0},
+ {1,1,1,1},
+ {1,0,0,0},
+ {1,0,0,0}} ; 
+k = 2 ; 
 
-    cout<<twoCitySchedCost(a)<<endl;
-    a = {{515,563},{451,713},{537,709},{343,819},{855,779},{457,60},{650,359},{631,42} } ;
-
-
-    cout<<twoCitySchedCost(a)<<endl;
+    Show(kWeakestRows(v,k));nl;
 }
+
+//     int dif(vector<int> &a)
+//     {
+//         return a[0] - a[1] ; 
+//     }
+//     int twoCitySchedCost(vector<vector<int>>& a) {
+//         int sum0 = 0 , sum1 = 0 , n = a.size()  ;
+        
+//         // for(int i = 0 ; i < n ; ++i ){
+//         // sum0+=a[i][0];    
+//         // sum1+=a[i][1];    
+//         // }
+
+//         sort(a.begin(),a.end(),[](const vector<int> A ,const vector<int> b ){
+//             int a1 = (A[0] - A[1]);
+//             int b1 = (b[0] - b[1])   ; 
+//             return a1 < b1 ; 
+//         } ) ; 
+//         int c1 = 0 , c2 = 0 ,ans = 0 ; 
+//         for(int i = 0 ; i < n ; ++i){
+//         // for(int i = 0 ; i < a.size() / 2  ;++i){
+//             cout<<a[i][0]<<" "<<a[i][1] <<" "<<ans<<endl;
+//             // ans += a[i][0] + a[i + n / 2][1];
+//             if( i < n/2 )ans+=a[i][0] ; 
+//             else 
+//                 ans+=a[i][1] ; 
+//             // if(dif(A) < 0){
+//             //     if(c1 < n/2){
+//             //         ans+=A[0] ;
+//             //         c1++;
+//             //     }
+//             //     else {
+//             //         ans+=A[1] ; 
+//             //         c2++ ; 
+//             //     }                    
+//             // }
+//             // else {
+//             //     if(c2 < n/2){
+//             //         ans+=A[1] ;
+//             //         c2++;
+//             //     }
+//             //     else {
+//             //         ans+=A[0] ; 
+//             //         c1++ ; 
+//             //     }
+//             // }
+//         }
+//         return ans ;
+//     }
+
+// void solve(){
+//     vector<vector<int> > a = {
+//         {10,20},{30,200},{400,50},{30,20}
+//     } ; 
+//     cout<<twoCitySchedCost(a)<<endl;
+
+//     a = {{259,770},{448,54},{926,667},{184,139},{840,118},{577,469} } ;
+
+//     cout<<twoCitySchedCost(a)<<endl;
+//     a = {{515,563},{451,713},{537,709},{343,819},{855,779},{457,60},{650,359},{631,42} } ;
+
+
+//     cout<<twoCitySchedCost(a)<<endl;
+// }
 
 // int N ;
 //     vector<int>ans ;
@@ -302,42 +371,42 @@ double champagneTower(int p, int i, int j) {
         return min(dp[j],1.0);
     }
 
-struct compare{
-  public:
-  bool operator()(vector<long long > &a,vector<long long> & b) // overloading both operators 
-  {
-      // return a.w < b.w: // if you want increasing order;(i.e increasing for maxPQ)
-      // return a.w > b.w // if you want reverse of default order;(i.e decreasing for minPQ)
+// struct compare{
+//   public:
+//   bool operator()(vector<long long > &a,vector<long long> & b) // overloading both operators 
+//   {
+//       // return a.w < b.w: // if you want increasing order;(i.e increasing for maxPQ)
+//       // return a.w > b.w // if you want reverse of default order;(i.e decreasing for minPQ)
 
-    return a[0] > b[0] ; 
+//     return a[0] > b[0] ; 
 
-   }
-};
+//    }
+// };
 
-int nthSuperUglyNumber(int n, vector<int>& primes) {
-    priority_queue<vector<long long> ,vector<vector<long long>>, compare > q ;
-    vector<long long> nums(n) ;
-    nums[0] = 1 ;
-    for(int i : primes){
-        q.push({i,i,0} );
-    }          
-    int j = 0  ; 
-    for(int i = 1 ;  i < n ;){
-        // long long [num,prime,index] = q.top() ;
-        // if(j >10) break ; j++;cout<<j <<" ";
-        vector<long long> v = q.top() ;
-        q.pop();
-        long long num = v[0] , prime = v[1] , index = v[2] ; 
-        // cout<<i<<" "<<num<<" " <<prime<<" "<<index <<endl;
-        if(num!=nums[i-1]){
-            nums[i] = num ; 
-            i++; 
-        }
-        q.push( { prime*nums[index+1] , prime , index + 1} );
-    }
-    return nums[n-1];
+// int nthSuperUglyNumber(int n, vector<int>& primes) {
+//     priority_queue<vector<long long> ,vector<vector<long long>>, compare > q ;
+//     vector<long long> nums(n) ;
+//     nums[0] = 1 ;
+//     for(int i : primes){
+//         q.push({i,i,0} );
+//     }          
+//     int j = 0  ; 
+//     for(int i = 1 ;  i < n ;){
+//         // long long [num,prime,index] = q.top() ;
+//         // if(j >10) break ; j++;cout<<j <<" ";
+//         vector<long long> v = q.top() ;
+//         q.pop();
+//         long long num = v[0] , prime = v[1] , index = v[2] ; 
+//         // cout<<i<<" "<<num<<" " <<prime<<" "<<index <<endl;
+//         if(num!=nums[i-1]){
+//             nums[i] = num ; 
+//             i++; 
+//         }
+//         q.push( { prime*nums[index+1] , prime , index + 1} );
+//     }
+//     return nums[n-1];
 
-}
+// }
 
 // //int solve(){
 // void solve1(){
