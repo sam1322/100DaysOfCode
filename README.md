@@ -415,6 +415,9 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [287. Find the Duplicate Number](287-find-the-duplicate-number)
+2) [22. Generate Parenthesis](22-generate-parenthesis)
+3) [221. Maximal Square](221-maximal-square)
 
 ### Day	41 : Wednesday	30/03/2022 00:00:00
 
