@@ -423,7 +423,7 @@
 
 **Today's Progress :**Progress right now is incredibly slow. Just feeling like it is too hard to push .
 
-**Thoughts :** Feeling the effects of chronic loneliness. Looks like I might be soon be eliminated by natural selection Lol 🥲. I wish I had worked harder on these in my first , second or third years of college. Now it looks like I am gonna graduate from college with this third rated company which I got in my fucking placement. Motherfucker. Bastards. Behen K lode 
+**Thoughts :** Feeling the effects of chronic loneliness. Looks like I might be soon be eliminated by natural selection Lol 🥲.To be honest it would be much better too be treated as an equal by somebody or someone. I wish I had worked harder on these in my first , second or third years of college. Now it looks like I am gonna graduate from college with this third rated company which I got in my fucking placement. Motherfucker. Bastards. Behen K lode .
 
 **Link to work :**
 1) [74. Search a 2D Matrix](74-search-a-2d-matrix)
