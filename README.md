@@ -426,7 +426,8 @@
 **Thoughts :** 
 
 **Link to work :**
-
+1) [74. Search a 2D Matrix](74-search-a-2d-matrix)
+2) [5. Longest Palindromic Substring](5-longest-palindromic-substring/)
 ### Day	42 : Thursday	31/03/2022 00:00:00
 
 **Today's Progress :**
