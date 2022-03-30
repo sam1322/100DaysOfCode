@@ -419,15 +419,16 @@
 2) [22. Generate Parenthesis](22-generate-parenthesis)
 3) [221. Maximal Square](221-maximal-square)
 
-### Day	41 : Wednesday	30/03/2022 00:00:00
+### Day	41 : Wednesday	30/03/2022 21:06:35
 
-**Today's Progress :**
+**Today's Progress :**Progress right now is incredibly slow. Just feeling like it is too hard to push .
 
-**Thoughts :** 
+**Thoughts :** Feeling the effects of chronic loneliness. Looks like I might be soon be eliminated by natural selection Lol 🥲. I wish I had worked harder on these in my first , second or third years of college. Now it looks like I am gonna graduate from college with this third rated company which I got in my fucking placement. Motherfucker. Bastards. Behen K lode 
 
 **Link to work :**
 1) [74. Search a 2D Matrix](74-search-a-2d-matrix)
 2) [5. Longest Palindromic Substring](5-longest-palindromic-substring/)
+
 ### Day	42 : Thursday	31/03/2022 00:00:00
 
 **Today's Progress :**
