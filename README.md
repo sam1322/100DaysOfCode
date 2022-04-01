@@ -436,6 +436,9 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [410. Split Array Largest Sum](410-split-array-largest-sum)
+2) [64. Minimum Path Sum](64-minimum-path-sum)
+3) [198. House Robber](198-house-robber)
 
 ### Day	43 : Friday	    01/04/2022 00:00:00
 
@@ -444,6 +447,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [344. Reverse String](344-reverse-string)
 
 ### Day	44 : Saturday	02/04/2022 00:00:00
 
