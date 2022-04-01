@@ -421,7 +421,7 @@
 
 ### Day	41 : Wednesday	30/03/2022 21:06:35
 
-**Today's Progress :**Progress right now is incredibly slow. Just feeling like it is too hard to push .
+**Today's Progress :** Progress right now is incredibly slow. Just feeling like it is too hard to push .
 
 **Thoughts :** Feeling the effects of chronic loneliness. Looks like I might be soon be eliminated by natural selection Lol 🥲.To be honest it would be much better too be treated as an equal by somebody or someone. I wish I had worked harder on these in my first , second or third years of college. Now it looks like I am gonna graduate from college with this third rated company which I got in my fucking placement. Motherfucker. Bastards. Behen K lode .
 
@@ -442,7 +442,7 @@
 
 ### Day	43 : Friday	    01/04/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Today did 3 leetcode questions and also revised OS concepts mainly  critical section problem , process sychronization  and deadlock and methods to handle it.
 
 **Thoughts :** 
 
