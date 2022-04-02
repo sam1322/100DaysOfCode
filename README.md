@@ -455,9 +455,12 @@
 
 **Today's Progress :**
 
-**Thoughts :** 
+**Thoughts :** Today I got stuck in that cheapest flight question. Drained me completely.
 
 **Link to work :**
+1) [680. Valid Palindrome II](680-valid-palindrome-ii/)
+2) [2220. Minimum Bit Flips to Convert Number]()
+3) [2221. Find Triangular Sum of an Array](2221-find-triangular-sum-of-an-array/)
 
 ### Day	45 : Sunday	    03/04/2022 00:00:00
 
