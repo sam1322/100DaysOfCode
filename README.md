@@ -459,7 +459,7 @@
 
 **Link to work :**
 1) [680. Valid Palindrome II](680-valid-palindrome-ii/)
-2) [2220. Minimum Bit Flips to Convert Number]()
+2) [2220. Minimum Bit Flips to Convert Number](2220-minimum-bit-flips-to-convert-number/)
 3) [2221. Find Triangular Sum of an Array](2221-find-triangular-sum-of-an-array/)
 
 ### Day	45 : Sunday	    03/04/2022 00:00:00
@@ -469,6 +469,10 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [31. Next Permutation](31-next-permutation/)
+2) [2225. Find Players With Zero or One Losses](https://leetcode.com/contest/weekly-contest-287/problems/find-players-with-zero-or-one-losses/)
+3) [2224. Minimum Number of Operations to Convert Time](https://leetcode.com/contest/weekly-contest-287/problems/minimum-number-of-operations-to-convert-time/)
+4) [2222. Number of Ways to Select Buildings](2222-number-of-ways-to-select-buildings)
 
 ### Day	46 : Monday	    04/04/2022 00:00:00
 
