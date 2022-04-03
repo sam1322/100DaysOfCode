@@ -1,0 +1,1 @@
+This question was so stupidly simple , after I read the solution , I kind of felt like kicking myself.
