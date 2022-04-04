@@ -481,6 +481,9 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)
+2) [1721. Swapping Nodes in a Linked List](1721-swapping-nodes-in-a-linked-list)
+3) [2226. Maximum Candies Allocated to K Children](2226-maximum-candies-allocated-to-k-children)
 
 ### Day	47 : Tuesday	05/04/2022 00:00:00
 
