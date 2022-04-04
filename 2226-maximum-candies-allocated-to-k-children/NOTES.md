@@ -1,0 +1,1 @@
+I need to do more practice in binary search questions because I couldn't even identify that this was binary search question.
