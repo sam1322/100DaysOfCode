@@ -1,1 +1,1 @@
-​
+A better solution than before.
