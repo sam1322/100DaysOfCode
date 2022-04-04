@@ -10,37 +10,19 @@
  */
 class Solution {
 public:
-    void Swap(ListNode* a,ListNode* b){
-        // ListNode* temp ;
-        // temp = a->next; 
-        int t = a->next->val  ; 
-        a->next->val = b->next->val ;
-        b->next->val = t ;
-        
-    }
-    
+ 
     ListNode* swapNodes(ListNode* head, int k) {
-        ListNode* a = head , *b , *dummy = new ListNode(-1) ; 
-        int n = 0 ; 
+        ListNode* a = head , *c,*b = nullptr ; 
         while(a){
-            n++;
-            a = a->next; 
+            b = b==nullptr ? nullptr : b->next ;
+            
+            if(--k == 0 ){
+                c = a ; 
+                b = head ;
+            }
+            a = a->next;
         }
-        
-        a = dummy ;
-        a->next = head ; 
-        int i = 1 ; 
-        while(i < k){
-            a=a->next ; 
-            i++;
-        }
-        i = 0 ;
-        b = dummy ;
-        while(i < n-k){
-            b = b->next ;
-            i++; 
-        }
-        Swap(a,b);
-        return dummy->next ;
+       swap(b->val,c->val);
+        return head ;
     }
 };
