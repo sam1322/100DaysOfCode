@@ -26,59 +26,37 @@ typedef long long  ll;
 typedef pair<int,int> pii; 
 // sieve , binomial coeff , pascal 
 
-int threeSumMulti(vector<int>& arr, int target) {
-        unordered_map<int,long > mp ; 
-        for(int i : arr){
-            mp[i]++;
-        }
-        
-        // vector<pair<int,int>> v(mp.begin() ,mp.end()) ;
-        
-    
-        long long ans = 0; 
-        for(auto [i,u]:mp){
-            for(auto [j,v]:mp){
-                int k = target - i - j ; 
-                if(mp.count(k)==0)continue ;
-                
-                if(i==j && j==k){
-                    ans+=((mp[k])*(mp[k]-1)*(mp[k]-2))/6; 
-                }
-                else if(i==j && j!=k){
-                    ans+=mp[i] * (mp[i] - 1) / 2 * mp[k];
-                }
-                else if(i < j && j < k ){
-                    ans+=(mp[i]*mp[v]*mp[k]); 
-                }
-                  cout<<ans<<" "<<i<<" "<<j<<" "<<k<<endl;
+ int findTheWinner(int n, int k) {
+        vector<int> vis(n,0);
+        int c = 0 , j = 0  ;
+        while(c < n -1){
+            c++;
+            for(int i = 0 ; i < k - 1 ;){
+                if(vis[j]){
+                j = ( j + 1)% n ; 
+                    continue ;}
+                else {j = ( j + 1)% n ; 
+                i++;}
+                cout<<j<<" ";
             }
+            while(vis[j]){
+                j = ( j + 1)% n ;    
+            }
+            vis[j] = 1 ;
             
-        }
-        
-        return ans % int(1e9+ 7);
-    }
-int threeSumMulti1(vector<int>& A, int target) {
-        unordered_map<int, long> c;
-        for (int a : A) c[a]++;
-        long res = 0;
-        for (auto it : c)
-            for (auto it2 : c) {
-                int i = it.first, j = it2.first, k = target - i - j;
-                if (!c.count(k)) continue;
-                if (i == j && j == k)
-                    res += c[i] * (c[i] - 1) * (c[i] - 2) / 6;
-                else if (i == j && j != k)
-                    res += c[i] * (c[i] - 1) / 2 * c[k];
-                else if (i < j && j < k)
-                    res += c[i] * c[j] * c[k];
-               cout<<res<<" "<<i<< " "<<j <<" "<<k<<endl;
+            nl;Show(vis);nl;
+            while(vis[j]){
+                j = ( j + 1)% n ; 
+                
             }
-        return res % int(1e9 + 7);
+            cout<<"Next "<<j  <<endl;
+                
+        }
+        return j + 1 ;
     }
 void solve(){
-   vi arr = {1,1,2,2,3,3,4,4,5,5}; 
-   int target = 8 ;
-   cout<<threeSumMulti(arr,target);nl;
+   int n = 5 , k = 2 ; 
+   cout<<findTheWinner(n,k);nl;
 }
 
 int main()

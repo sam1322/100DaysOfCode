@@ -503,7 +503,6 @@
 **Link to work :**
 1) [923. 3Sum With Multiplicity](923-3sum-with-multiplicity)
 
-
 ### Day	49 : Thursday	07/04/2022 00:00:00
 
 **Today's Progress :**
@@ -511,6 +510,8 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [1046. Last Stone Weight](1046-last-stone-weight)
+2) [1823. Find the Winner of the Circular Game](1823-find-the-winner-of-the-circular-game)
 
 ### Day	50 : Friday	    08/04/2022 00:00:00
 
