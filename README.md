@@ -512,6 +512,7 @@
 **Link to work :**
 1) [1046. Last Stone Weight](1046-last-stone-weight)
 2) [1823. Find the Winner of the Circular Game](1823-find-the-winner-of-the-circular-game)
+3) [921. Minimum Add to Make Parentheses Valid](921-minimum-add-to-make-parentheses-valid)
 
 ### Day	50 : Friday	    08/04/2022 00:00:00
 
