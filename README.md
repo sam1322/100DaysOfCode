@@ -522,7 +522,7 @@
 **Thoughts :** 
 
 **Link to work :**
-
+1) [703. Kth Largest Element in a Stream](703-kth-largest-element-in-a-stream/)
 ### Day	51 : Saturday	09/04/2022 00:00:00
 
 **Today's Progress :**
@@ -530,6 +530,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [347. Top K Frequent Elements](347-top-k-frequent-elements/)
 
 ### Day	52 : Sunday	    10/04/2022 00:00:00
 
