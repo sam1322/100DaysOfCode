@@ -548,6 +548,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [1260. Shift 2D Grid](1260-shift-2d-grid)
 
 ### Day	54 : Tuesday	12/04/2022 00:00:00
 
