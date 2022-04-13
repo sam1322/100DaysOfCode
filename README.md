@@ -566,6 +566,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [59. Spiral Matrix II](59-spiral-matrix-ii/)
 
 ### Day	56 : Thursday	14/04/2022 00:00:00
 
