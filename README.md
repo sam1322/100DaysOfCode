@@ -575,14 +575,16 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [700. Search in a Binary Search Tree](700-search-in-a-binary-search-tree/)
 
 ### Day	57 : Friday	    15/04/2022 00:00:00
 
 **Today's Progress :**
 
-**Thoughts :** 
+**Thoughts :** These days I am just not feeling it , I don't know the btp, job search, loneliness is kind of weighing me down. Oh just another thing I just want to write that for the past three days  I have been just been bing reading spy x family manga. It was good manga and I was just not feeling upto it ,still I have been barely doing one question for these past week.
 
 **Link to work :**
+1) [669. Trim a Binary Search Tree](669-trim-a-binary-search-tree)
 
 ### Day	58 : Saturday	16/04/2022 00:00:00
 
