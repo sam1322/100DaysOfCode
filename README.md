@@ -593,6 +593,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [538. Convert BST To Greater Tree](538-convert-bst-to-greater-tree)
 
 ### Day	59 : Sunday	    17/04/2022 00:00:00
 
