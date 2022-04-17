@@ -1,3 +1,17 @@
+###Explore the following links
+1) https://leetcode.com/discuss/general-discussion/1050391/Must-do-Dynamic-programming-Problems-Category-wise
+2) https://leetcode.com/discuss/general-discussion/1000929/solved-all-dynamic-programming-dp-problems-in-7-months
+3) https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-by-common-patterns.
+4) https://leetcode.com/discuss/study-guide/1490172/Dynamic-programming-is-simple
+5) https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns#distinct-ways
+6) https://leetcode.com/discuss/study-guide/1200320/Thief-with-a-knapsack-a-series-of-crimes.
+7) https://leetcode.com/problems/paint-house-iii/discuss/677926/calculating-time-complexity-of-dp-hard-problems
+8) https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/discuss/654490/dp-is-easy-5-step-dp-thinking-process-explained
+9) https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/discuss/108870/Most-consistent-ways-of-dealing-with-the-series-of-stock-problems
+10) https://medium.com/leetcode-patterns/leetcode-pattern-0-iterative-traversals-on-trees-d373568eb0ec
+11) https://dev.to/arslan_ah/the-ultimate-strategy-to-preparing-for-the-coding-interview-3ace
+12) https://dev.to/arslan_ah/grokking-leetcode-a-smarter-way-to-prepare-for-coding-interviews-5d9d
+
 ### Question: Identify this problem as one of the categories below before continuing.
 
 1. 0/1 Knapsack
