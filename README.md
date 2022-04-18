@@ -611,6 +611,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [230. Kth Smallest Element in a BST](230-kth-smallest-element-in-a-bst)
 
 ### Day	61 : Tuesday	19/04/2022 00:00:00
 
