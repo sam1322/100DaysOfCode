@@ -620,6 +620,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [99. Recover Binary Search Tree](99-recover-binary-search-tree)
 
 ### Day	62 : Wednesday	20/04/2022 00:00:00
 
