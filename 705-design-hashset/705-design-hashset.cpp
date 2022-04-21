@@ -1,21 +1,21 @@
 class MyHashSet {
 public:
-    vector<bool> v;
+    vector<int> v;
     MyHashSet() {
-        
-        v.assign(1000001,0) ; 
+        int k = 1000000/32 ;
+        v.assign(k+1,0) ; 
     }
     
     void add(int key) {
-        v[key] = 1;
+        v[key/32] |=  1<<(key%32);
     }
     
     void remove(int key) {
-        v[key] = 0 ; 
+        v[key/32] &= ~(1<<(key%32));
     }
     
     bool contains(int key) {
-        return v[key]; 
+        return v[key/32] & (1<<(key%32)); 
     }
 };
 
