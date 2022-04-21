@@ -7,15 +7,15 @@ public:
     }
     
     void add(int key) {
-        v[key/32] |=  1<<(key%32);
+        v[key>>5] |=  1<<(key&31);
     }
     
     void remove(int key) {
-        v[key/32] &= ~(1<<(key%32));
+        v[key>>5] &= ~(1<<(key&31));
     }
     
     bool contains(int key) {
-        return v[key/32] & (1<<(key%32)); 
+        return v[key>>5] & (1<<(key&31)); 
     }
 };
 
