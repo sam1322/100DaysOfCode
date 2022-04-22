@@ -629,6 +629,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [173. Binary Search Tree Iterator](173-binary-search-tree-iterator)
 
 ### Day	63 : Thursday	21/04/2022 00:00:00
 
@@ -637,6 +638,8 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [705. Design HashSet](705-design-hashset)
+2) [2246. Longest Path With Different Adjacent Characters](2246-longest-path-with-different-adjacent-characters)
 
 ### Day	64 : Friday	    22/04/2022 00:00:00
 
@@ -645,6 +648,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [706. Design HashMap](706-design-hashmap)
 
 ### Day	65 : Saturday	23/04/2022 00:00:00
 
