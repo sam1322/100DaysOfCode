@@ -657,6 +657,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [535. Encode and Decode TinyURL](535-encode-and-decode-tinyurl/)
 
 ### Day	66 : Sunday	    24/04/2022 00:00:00
 
