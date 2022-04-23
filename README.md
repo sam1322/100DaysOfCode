@@ -652,13 +652,13 @@
 
 ### Day	65 : Saturday	23/04/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Did one leetcode question and was also busy doing a simple todolist project using typescript and react
 
 **Thoughts :** 
 
 **Link to work :**
 1) [535. Encode and Decode TinyURL](535-encode-and-decode-tinyurl/)
-
+2) [Todolist 2](https://github.com/sam1322/todolist-2)
 ### Day	66 : Sunday	    24/04/2022 00:00:00
 
 **Today's Progress :**
