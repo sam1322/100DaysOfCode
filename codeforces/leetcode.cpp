@@ -25,39 +25,38 @@ typedef long long  ll;
 #define nl cout<<endl;
 typedef pair<int,int> pii; 
 // sieve , binomial coeff , pascal 
-
- int findTheWinner(int n, int k) {
-        vector<int> vis(n,0);
-        int c = 0 , j = 0  ;
-        while(c < n -1){
-            c++;
-            for(int i = 0 ; i < k - 1 ;){
-                if(vis[j]){
-                j = ( j + 1)% n ; 
-                    continue ;}
-                else {j = ( j + 1)% n ; 
-                i++;}
-                cout<<j<<" ";
-            }
-            while(vis[j]){
-                j = ( j + 1)% n ;    
-            }
-            vis[j] = 1 ;
-            
-            nl;Show(vis);nl;
-            while(vis[j]){
-                j = ( j + 1)% n ; 
-                
-            }
-            cout<<"Next "<<j  <<endl;
-                
-        }
-        return j + 1 ;
-    }
-void solve(){
-   int n = 5 , k = 2 ; 
-   cout<<findTheWinner(n,k);nl;
+ bool comparefn(vector<int> &a, vector<int> &b)
+{
+    if(a[0]!=b[0])
+    return a[0]<b[0];
+    return a[1] < b[1] ;
 }
+
+int f(vector<vector<int>> &p ,int x ,int y){
+    int m ,l = 0 , r = p.size() -1, ans=-1;
+    while(l < r){
+        m = (l+r)/2 ;
+        if(m <p.size() &&  p[m][0] >= x && p[m][1]>= y){
+            ans = m ; 
+            r = m  ; 
+        }
+        else l = m +1;
+    }
+    return p.size() - ans +1 ;
+}
+
+class Solution {
+public:
+    vector<int> countRectangles(vector<vector<int>>& rect, vector<vector<int>>& points) {
+        // sort(points.begin(),points.end(), comparefn );
+        vector<int> ans;
+        sort(rect.begin() ,rect.end() , comparefn); 
+        for(auto v:points){
+            ans.push_back(f(rect,v[0],v[1]));
+        }
+        return ans ;
+    }
+};
 
 int main()
 {
