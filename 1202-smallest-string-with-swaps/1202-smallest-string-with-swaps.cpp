@@ -31,7 +31,7 @@ public:
         
         for(auto x:mp){
             set<int> st = x.second ;
-            priority_queue<char,vector<char> ,greater<char> > q; 
+            priority_queue<char,vector<char> ,compar > q; 
             // string q; 
             for(int i :st){
                 q.push(s[i]); 
