@@ -26,42 +26,45 @@ typedef long long  ll;
 typedef pair<int,int> pii; 
 // sieve , binomial coeff , pascal 
 
- int findTheWinner(int n, int k) {
-        vector<int> vis(n,0);
-        int c = 0 , j = 0  ;
-        while(c < n -1){
-            c++;
-            for(int i = 0 ; i < k - 1 ;){
-                if(vis[j]){
-                j = ( j + 1)% n ; 
-                    continue ;}
-                else {j = ( j + 1)% n ; 
-                i++;}
-                cout<<j<<" ";
+//int solve(){
+ 
+vector<long long> denom = {20 ,50,100,200,500} ;
+string digitSum(string s, int k) {
+        string str, r = "" ;
+        while(s.size()>k){
+            r = "" ;
+            for(int i = 0 ;i<s.size() ; i+=k){
+                str = (s.size() - i>= k)?s.substr(i,k):s.substr(i);
+            int sum =0; 
+            cout<<str << " ";
+                for(int j  = 0 ; j < str.size(); ++j){
+                    sum+=str[i] - '0' ;
+                }
+                cout<<sum<<" , ";
+                r+=to_string(sum); 
+                    
             }
-            while(vis[j]){
-                j = ( j + 1)% n ;    
-            }
-            vis[j] = 1 ;
+            s = r ; 
+            cout<<s<<endl;
             
-            nl;Show(vis);nl;
-            while(vis[j]){
-                j = ( j + 1)% n ; 
-                
-            }
-            cout<<"Next "<<j  <<endl;
-                
         }
-        return j + 1 ;
+        return s ;
     }
+
 void solve(){
-   int n = 5 , k = 2 ; 
-   cout<<findTheWinner(n,k);nl;
+    cout<<digitSum("11111222223",3);
 }
 
 int main()
 {
    ios_base::sync_with_stdio(false);cin.tie(NULL);
+ 
+    
+   #ifndef ONLINE_JUDGE
+   freopen("in", "r", stdin);
+   freopen("err", "w", stderr);
+   freopen("out", "w", stdout);
+   #endif
 
-   solve();
+    solve();
 }
