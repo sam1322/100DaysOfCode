@@ -31,17 +31,18 @@ public:
         
         for(auto x:mp){
             set<int> st = x.second ;
-            // priority_queue<char,vector<char> ,greater<char> > q; 
-            string q; 
+            priority_queue<char,vector<char> ,greater<char> > q; 
+            // string q; 
             for(int i :st){
-                // q.push(s[i]); 
-                q+=s[i] ; 
+                q.push(s[i]); 
+                // q+=s[i] ; 
             }
-            sort(q.begin(),q.end()); 
+            // sort(q.begin(),q.end()); 
             int j = 0 ; 
             for(int i:st){
-                s[i]=q[j++] ;
-                // q.pop(); 
+                // s[i]=q[j++] ;
+                s[i]=q.top();
+                q.pop(); 
             }
             
         }
