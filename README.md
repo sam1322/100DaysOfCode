@@ -676,6 +676,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [284. Peeking Iterator](284-peeking-iterator)
 
 ### Day	68 : Tuesday	26/04/2022 00:00:00
 
@@ -684,6 +685,8 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [1584. Min Cost to Connect All Points](1584-min-cost-to-connect-all-points/)
+2) [2249. Count Lattice Points Inside a Circle](2249-count-lattice-points-inside-a-circle/)
 
 ### Day	69 : Wednesday	27/04/2022 00:00:00
 
@@ -692,6 +695,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [1202 Smallest String With Swaps](1202-smallest-string-with-swaps/)
 
 ### Day	70 : Thursday	28/04/2022 00:00:00
 
