@@ -712,6 +712,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [785	Is Graph Bipartite](785-is-graph-bipartite/)
 
 ### Day	72 : Saturday	30/04/2022 00:00:00
 
