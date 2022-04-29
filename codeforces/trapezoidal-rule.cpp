@@ -3,29 +3,33 @@
 # define endl "\n"
 # define ld long double
 using namespace std;
+
 ld f(ld x) {
-return 1 / (1 + x * x);
-}void solve() {
-ld a, b;
-cin >> a >> b;
-int n;
-cin >> n;
-ld h = (b - a) / n;
-vector <ld> Y(n + 1);
-for (int i = 0; i <= n; i++) {
-Y[i] = f(a + i * h);
+	return 1 / (1 + x * x);
 }
-ld ans = 0;
-for (int i = 0; i <= n; i++) {
-if (i == 0 || i == n) {
-ans += Y[i];
-}
-else {
-ans += 2 * Y[i];
-}
-}
-ans *= h / 2;
-cout << ans << endl;
+
+void solve() {
+	ld a, b;
+	cin >> a >> b;
+	int n;
+	cin >> n;
+	ld h = (b - a) / n;
+	vector <ld> Y(n + 1);
+	for (int i = 0; i <= n; i++) {
+		Y[i] = f(a + i * h);
+	}
+	ld ans = 0;
+	for (int i = 0; i <= n; i++) {
+		if (i == 0 || i == n) {
+			ans += Y[i];
+		}
+	else {
+		ans += 2 * Y[i];
+		}
+	}
+	
+	ans *= h / 2;
+	cout << ans << endl;
 }
 
 signed main() {

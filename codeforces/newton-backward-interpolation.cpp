@@ -29,7 +29,12 @@ void solve() {
 			diffTable[i][j] = diffTable[i + 1][j - 1] - diffTable[i][j - 1];
 		}
 	}
-	
+	// for(int i = 0 ; i < n ;++i ){
+	// 	for(int j = 0 ; j < n ;++j ){
+	// 		cout<<diffTable[i][j] <<" "; 
+	// 	}
+	// 	cout<<endl;
+	// }
 	ld a = X[n - 1], h = X[1] - X[0];
 	ld u = (x - a) / h;ld y = Y[n - 1];
 	ld uCr = 1;
