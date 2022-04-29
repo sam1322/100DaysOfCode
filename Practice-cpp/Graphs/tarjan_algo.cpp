@@ -20,84 +20,79 @@ template<typename T, typename V> inline void mx(T &x, V y) { if(x < y) x = y; }
 //const int MAXN = 200100;
 typedef long long  ll;
 #define vi vector<int>
-#define vl vector<ll>
 #define vp vector<pair<int,int>> 
-#define nl cout<<endl;
 typedef pair<int,int> pii; 
 // sieve , binomial coeff , pascal 
+// class Compare{
+//     public:
+//     bool operator() (foo,foo){
+//         return expression
+//     }
+// };
 
-void DFS(vector<vector<int>> &adj ,int u, vector<int> &disc,vector<int> &low,vector<int> &stack ,vector<bool> &presentInStack)
-{
-	static int time = 0 ; 
-	disc[u] = low[u] = time++;
-	stack.push_back(u) ;
-	presentInStack[u]= true  ;
-	// cout<<u<<" "<<low[u]<< " "<<disc[u]<<endl;
-		for(int v:adj[u]){
-		if(disc[v]==-1){
-			DFS(adj,v,disc,low,stack,presentInStack)  ;
-			low[u] = min(low[u],low[v]) ;
-	}
-		else if(presentInStack[v]){// if back edge
-			low[u] = min(low[u],disc[v] ); 
-		}
-		// else if cross edge then do nothing and return 
-	}	// cout<<u<<" "<<low[u]<< " "<<disc[u]<<endl;
-	if(low[u]==disc[u]){
-		cout<<"the head of strongly connected components is "<<u<<endl;
-		while(!stack.empty() && stack.back() !=u )		
-		{
-			cout<<stack.back()<< " " ; 
-			presentInStack[stack.back()] = false;
-			stack.pop_back() ;
-		}
-		if(!stack.empty()){
-			cout<<stack.back()<< " " ; 
-			presentInStack[stack.back()] = false;
-			stack.pop_back() ;	
-		}
-		cout<<endl; 
-	}
-}
-void tarjan(vector<vector<int>> &adj, int n ){
-	vector<int> disc(n,-1) , low(n,-1),stack; 
-	vector<bool> presentInStack(n,false) ;//for avoiding cross edges
-	for(int i = 0 ; i < n ; ++i ){
-		if(disc[i]==-1){
-			// cout<<i<<" "<<low[i]<< " "<<disc[i]<<endl;
-			DFS(adj,i,disc,low,stack,presentInStack) ;
-		}
-	}
+void dfs(vector<vector<int>> &adj  , int u ,vector<int> &disc , vector<int> &low,stack<int> &myStack ,vector<bool> &vis){
+    static int time = 0 ; 
+    disc[u] = low[u] = time ; 
+    time++ ;
+    vis[u] = 1 ; 
+    myStack.push(u);
+    for(int v : adj[u]){
+        if(disc[v]==-1){
+            dfs(adj,v,disc,low,myStack,vis) ;
+            low[u] = min(low[u] , low[v]) ; 
+        }
+        else if(vis[v]) //back edge 
+        {
+            low[u] = min(low[u],disc[v]) ; 
+        }
+        //for cross edge nothing is required to be done
+    }
+    //head of the scc
+    if(low[u]==disc[u]){
+        cout<<"SCC is : ";
+        while(!myStack.empty() && myStack.top()!= u ){
+            cout<<myStack.top()<<" ";
+            vis[myStack.top()] = 0 ; 
+            myStack.pop() ; 
+        }
+        if(!myStack.empty()){
+            cout<<myStack.top()<<" \n";
+            vis[myStack.top() ] = 0 ; 
+            myStack.pop() ;
+        } 
+    }
 }
 
-//int solve(){
+// for directed graph
+
+void Tarjan(vector<vector<int>> &adj,int n ){
+    vector<int> disc(n,-1),low(n,-1) ; 
+    vector<bool> vis(n) ;
+    stack<int> myStack ; 
+    for(int i = 0 ; i < n ;++i){
+        if(disc[i]==-1){
+            dfs(adj,i,disc, low,myStack,vis)  ;
+        }
+    }
+}
+
 void solve(){
-	int f,s, n ,e ; 
-	cin>>n >>e ;
-	vector<vector<int>>adj(n) ; 
-	vector<vector<int>> edge; 
-	fr(i,e){
-		cin>>f>>s; 
-		edge.push_back({f,s}) ; 
-	}
-	for(auto x:edge){
-		f = x[0] ; 
-		s = x[1] ;
-		adj[f].push_back(s); 
-		// adj[s].push_back(f); 
-	}
-	for(int i = 0 ; i < n ; ++i){
-		cout<<i<<" : ";
-		for(int x:adj[i])cout<<x<<" , ";nl;
-	}
+    int n , e ; 
+    cin>>n>>e ;
+    vector<vector<int>> adj(n);
+    fr(i,e){
+        int a, b;
+        cin>>a>>b;
+        adj[a].pb(b) ; 
+    } 
 
-	tarjan(adj,n) ; 
+    Tarjan(adj,n);
 
 }
 
 int main()
 {
-   ios_base::sync_with_stdio(false);cin.tie(NULL);
+    // ios_base::sync_with_stdio(false);cin.tie(NULL);
  
         
   #ifndef ONLINE_JUDGE
@@ -105,18 +100,13 @@ int main()
    freopen("/home/sriram/Coding-files/codeforces/err", "w", stderr);
    freopen("/home/sriram/Coding-files/codeforces/out", "w", stdout);
    #endif
-
-    int tc;
-    //scanf("%d", &tc) ; 
-    cin>>tc; 
-
+     int tc;
+    scanf("%d", &tc) ; 
     while(tc--){
-    	//cout<<solve()<<endl;
-      solve();
-      //cout<<endl;
+        // cout<<solve()<<endl;
+        solve();
     }
 }
-
 /*
 1
 7 9 
@@ -129,18 +119,5 @@ int main()
 4 6
 5 6
 6 5
-
-1
-8 10
-0 1
-1 2
-2 0
-2 3
-3 4
-4 5
-4 7
-5 6
-6 4
-6 7
 
 */
