@@ -707,7 +707,7 @@
 
 ### Day	71 : Friday	    29/04/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** I missed yesterday's daily challenge :(
 
 **Thoughts :** 
 
