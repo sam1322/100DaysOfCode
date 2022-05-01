@@ -730,6 +730,8 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [2261. K Divisible Elements Subarrays](2261-k-divisible-elements-subarrays)
+2) [844. Backspace String Compare](844-backspace-string-compare/)
 
 ### Day	74 : Monday	    02/05/2022 00:00:00
 
