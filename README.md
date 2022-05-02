@@ -742,6 +742,8 @@
 
 **Link to work :**
 1) [905. Sort Array By Parity](905-sort-array-by-parity/)
+2) [2250 Count Number Of Rectangles Containing Each Point](2250-count-number-of-rectangles-containing-each-point)
+3) [2251. Number of Flowers in Full Bloom](2251-number-of-flowers-in-full-bloom/)
 
 ### Day	75 : Tuesday	03/05/2022 00:00:00
 
