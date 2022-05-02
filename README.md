@@ -732,6 +732,7 @@
 **Link to work :**
 1) [2261. K Divisible Elements Subarrays](2261-k-divisible-elements-subarrays)
 2) [844. Backspace String Compare](844-backspace-string-compare/)
+3) [2262. Total Appeal of A String](2262-total-appeal-of-a-string)
 
 ### Day	74 : Monday	    02/05/2022 00:00:00
 
