@@ -1,47 +1,79 @@
-// working of Virtual Functions
-#include<iostream>
+#include<bits/stdc++.h>
+#include<algorithm>
 using namespace std;
- 
-class base {
+
+#define fr(i,a) for(int  i=0;i<a;i++)
+#define forn(i,a,n) for(int i = a; i < n ;i++)
+#define Sort(a) sort(a.begin(),a.end())
+#define Rev(k)  reverse(k.begin(),k.end())
+#define Sz(x) x.size()
+#define Show(v) for(int i =0 ; i < v.size();i++) cout<<v[i]<<" "; //only for strings and vector
+#define Mod 1000000007
+#define Fi first
+#define Sc second
+#define pb push_back
+#define Ios ios::sync_with_stdio(false);cin.tie(0);cout.setf(ios::fixed); cout.precision(0);
+#define inf 0x3f3f3f3f
+#define mk make_pair
+template<typename T, typename V> inline void mn(T &x, V y) { if(y < x) x = y; }
+template<typename T, typename V> inline void mx(T &x, V y) { if(x < y) x = y; }
+//const int MAXN = 200100;
+typedef long long  ll;
+#define vi vector<int>
+#define vl vector<ll>
+#define vp vector<pair<int,int>> 
+#define nl cout<<endl;
+typedef pair<int,int> pii; 
+// // sieve , binomial coeff , pascal 
+
+class base{
+protected:
+    int x = 5;
+    int y = 10 ;
 public:
-    void fun_1() { cout << "base-1\n"; }
-    virtual void fun_2() { cout << "base-2\n"; }
-    virtual void fun_3() { cout << "base-3\n"; }
-    virtual void fun_4() { cout << "base-4\n"; }
+    base(){cout<<"creating value";nl;}
+    base(int x){this->x=x; }
+    base(const base &b){
+        x = b.x;
+        cout<<"copy ninja ,kakashi hatake";nl;
+    }
+    virtual void get(){cout<<"x = "<<x<<" y = "<<y<<endl;}
+    virtual ~base(){
+        cout<<"deleting the balue";nl;
+    }
 };
- 
-class derived : public base {
-public:
-    void fun_1() { cout << "derived-1\n"; }
-    void fun_2() { cout << "derived-2\n"; }
-    void fun_3() { cout << "derived-3\n"; }
-    void fun_4(int x) { cout << "derived-4\n"; }
+
+class derived:public base{
+  public:
+    derived(){;}
+    derived(int x ,int y ){
+        this->x = x; 
+        this->y =y ;
+        cout<<"derived constructor"<<endl;
+    }
+    void get(){cout<<"Derived x "<<x<<" and y "<<y<<endl;}
+    ~derived(){
+        cout<<"deleting the value";nl;
+    }
 };
- 
+
+void solve(){
+    base *b = new derived(6,7) ;
+    b->get();
+    delete b ;
+    cout<<"b deleted"<<endl;
+    // base b1 = *b ;
+    // b1.get();
+}
+
 int main()
 {
-    base *p;
-    derived obj1;
-    p = &obj1;
- 
-    // Early binding because fun1() is non-virtual
-    // in base
-    p->fun_1();
- 
-    // Late binding (RTP)
-    p->fun_2();
- 
-    // Late binding (RTP)
-    p->fun_3();
- 
-    // Late binding (RTP)
-    p->fun_4();
- 
-    // Early binding but this function call is
-    // illegal (produces error) because pointer
-    // is of base type and function is of
-    // derived class
-    // p->fun_4(5);
-   
-    return 0;
+   ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    // cout << fixed << setprecision(4);
+    # ifndef ONLINE_JUDGE
+    freopen("in", "r", stdin);
+    // freopen("out", "w", stdout);
+    # endif
+    solve();
 }

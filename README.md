@@ -741,6 +741,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [905. Sort Array By Parity](905-sort-array-by-parity/)
 
 ### Day	75 : Tuesday	03/05/2022 00:00:00
 
