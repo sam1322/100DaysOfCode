@@ -727,7 +727,7 @@
 
 **Today's Progress :**
 
-**Thoughts :** 
+**Thoughts :** I was busy in revising oops concept whole day.
 
 **Link to work :**
 1) [2261. K Divisible Elements Subarrays](2261-k-divisible-elements-subarrays)
@@ -736,7 +736,7 @@
 
 ### Day	74 : Monday	    02/05/2022 00:00:00
 
-**Today's Progress :**
+**Today's Progress :** Another day gone revising oops.
 
 **Thoughts :** 
 
@@ -752,6 +752,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [581. Shortest Unsorted Continuous Subarray](581-shortest-unsorted-continuous-subarray/)
 
 ### Day	76 : Wednesday	04/05/2022 00:00:00
 
