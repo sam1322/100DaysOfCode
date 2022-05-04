@@ -761,6 +761,8 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [1679. Max Number of K-Sum Pairs](1679-max-number-of-k-sum-pairs)
+2) [330. Patching Array](330-patching-array)
 
 ### Day	77 : Thursday	05/05/2022 00:00:00
 
