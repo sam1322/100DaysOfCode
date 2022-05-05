@@ -772,6 +772,7 @@
 
 **Link to work :**
 1) [225. Implement Stack using Queues](225-implement-stack-using-queues/)
+2) [1514. Path with Maximum Probability](1514-path-with-maximum-probability)
 
 ### Day	78 : Friday	    06/05/2022 00:00:00
 
