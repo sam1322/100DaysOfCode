@@ -1,6 +1,6 @@
 struct compare{
     bool operator()(const pair<double,int> &a,const pair<double,int> &b){
-        return a.first > b.first ;
+        return a.first < b.first ;
     }
 };
 
@@ -17,8 +17,8 @@ public:
             
         }
         
-        priority_queue<pair<double,int>> q;
-        // priority_queue<pair<double,int> ,vector<pair<double,int>> ,compare> q;
+        // priority_queue<pair<double,int>> q;
+        priority_queue<pair<double,int> ,vector<pair<double,int>> ,compare> q;
         vector<double> dist(n,0.00);
         vector<int> vis(n);
         dist[start] = 1.00 ; 
