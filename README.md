@@ -789,6 +789,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [456. 132 Pattern](456-132-pattern)
 
 ### Day	80 : Sunday	    08/05/2022 00:00:00
 
