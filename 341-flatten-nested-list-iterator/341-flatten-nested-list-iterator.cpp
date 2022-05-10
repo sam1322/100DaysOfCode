@@ -18,31 +18,35 @@
 
 class NestedIterator {
 public:
-    vector<int>a ; 
-    int i = 0 ; 
-    
+    vector<vector<NestedInteger>::iterator> begins,ends;
     NestedIterator(vector<NestedInteger> &nestedList) {
-        helper(nestedList);
+        begins.push_back(nestedList.begin());
+        ends.push_back(nestedList.end());
     }
     
-    void helper(vector<NestedInteger> x){
-        for(NestedInteger i : x){
-            if(i.isInteger()){
-                a.push_back(i.getInteger()); 
-            }
-            else{
-                helper(i.getList());
-            }
-        }
-    }
     
     int next() {
-        if( i < a.size())return a[i++];
-        return INT_MIN;
+        hasNext();
+        return (begins.back()++)->getInteger();
+        
+        // return INT_MIN;
     }
     
     bool hasNext() {
-        return i < a.size() ;
+        while(!begins.empty()){
+            if(begins.back()==ends.back()){
+                begins.pop_back();
+                ends.pop_back();
+            }
+            else{
+                auto x = begins.back();
+                if(x->isInteger())return true ; 
+                begins.back()++;
+                begins.push_back(x->getList().begin()) ; 
+                ends.push_back(x->getList().end()) ; 
+            }
+        }
+        return false;
     }
 };
 
