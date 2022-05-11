@@ -798,6 +798,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [341. Flatten Nested List Iterator](341-flatten-nested-list-iterator)
 
 ### Day	81 : Monday	    09/05/2022 00:00:00
 
@@ -814,6 +815,9 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [1631. Path With Minimum Effort](1631-path-with-minimum-effort/)
+2) [1209. Remove All Adjacent Duplicates in String II](1209-remove-all-adjacent-duplicates-in-string-ii)
+3) [216. Combination Sum III](216-combination-sum-iii)
 
 ### Day	83 : Wednesday	11/05/2022 00:00:00
 
@@ -822,6 +826,8 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [1641. Count Sorted Vowel Strings](1641-count-sorted-vowel-strings)
+2) [1031. Maximum Sum of Two Non-Overlapping Subarrays](1031-maximum-sum-of-two-non-overlapping-subarrays)
 
 ### Day	84 : Thursday	12/05/2022 00:00:00
 

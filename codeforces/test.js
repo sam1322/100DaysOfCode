@@ -8,4 +8,12 @@
 //     <>
 //     </>
 //   )
-// }
+// }cd
+
+const hello = async()=>{
+	const hey = await setTimeout(()=>console.log('hi there') , 1000)
+	const t=  5 
+	console.log(t)
+}
+
+hello()
