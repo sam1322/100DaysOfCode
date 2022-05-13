@@ -43,5 +43,5 @@ Also thing is some other useless things come in between like going to classes an
 #### 4 May 2022 
 Barely 20-25 days left now for me to graduate and to join that shitty company. Feels like this is the most desperate times of my life. I have no option but to crack a company no matter what in this last few weeks of my college life. Else I have to work for atleast 6 months in that shitty company and what not. This is now either DO or DIE situation. No place to hide. No way to avoid this. Either I face this challenge and succeed or fail and litteraly go down the dumps of my miserable life.
 
-#### 14 May 2022 
+#### 14 May 2022 00:45:36
 Gave an interview this week and have another scheduled next week. No matter what I have to bring out all the focus inside me to crack this interview no matter what. No matter what. This is it. This is what is going to define my life atleast for the new few months. Either I crack this or I have to spend my next six months slogging in that shitty company like a slave. Fuck.
