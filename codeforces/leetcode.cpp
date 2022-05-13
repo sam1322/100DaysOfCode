@@ -26,44 +26,23 @@ typedef long long  ll;
 typedef pair<int,int> pii; 
 // // sieve , binomial coeff , pascal 
 
-class base{
-protected:
-    int x = 5;
-    int y = 10 ;
-public:
-    base(){cout<<"creating value";nl;}
-    base(int x){this->x=x; }
-    base(const base &b){
-        x = b.x;
-        cout<<"copy ninja ,kakashi hatake";nl;
-    }
-    virtual void get(){cout<<"x = "<<x<<" y = "<<y<<endl;}
-    virtual ~base(){
-        cout<<"deleting the balue";nl;
-    }
-};
 
-class derived:public base{
-  public:
-    derived(){;}
-    derived(int x ,int y ){
-        this->x = x; 
-        this->y =y ;
-        cout<<"derived constructor"<<endl;
+string removeDuplicates(string s) {
+    int j,i, n = s.size() ; 
+    for(j=0, i =0  ; j<n ; ++i ,j++){
+        s[i]=s[j] ; 
+        if(i > 0 && s[i]==s[i-1]){
+            i-=2 ;
+        }
+        cout<<s<<endl;
     }
-    void get(){cout<<"Derived x "<<x<<" and y "<<y<<endl;}
-    ~derived(){
-        cout<<"deleting the value";nl;
-    }
-};
+    return s.substr(0,i);
+}
 
 void solve(){
-    base *b = new derived(6,7) ;
-    b->get();
-    delete b ;
-    cout<<"b deleted"<<endl;
-    // base b1 = *b ;
-    // b1.get();
+    string s ;
+    cin>>s;
+    cout<<removeDuplicates(s)<<endl;
 }
 
 int main()

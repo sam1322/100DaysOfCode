@@ -836,6 +836,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [47. Permutations II](47-permutations-ii/)
 
 ### Day	85 : Friday	    13/05/2022 00:00:00
 
@@ -844,6 +845,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [117. Populating Next Right Pointers in Each Node II](117-populating-next-right-pointers-in-each-node-ii)
 
 ### Day	86 : Saturday	14/05/2022 00:00:00
 

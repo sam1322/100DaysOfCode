@@ -1,4 +1,2 @@
-4
-1 2 3 4
-4
-1
+All image data when processing is put away for future use. This preprocessing process has the 
+resulting modifiable parameters: resized images form.
