@@ -856,6 +856,7 @@
 **Link to work :**
 1) [743. Network Delay Time](743-network-delay-time)
 2) [299. Bulls and Cows](299-bulls-and-cows)
+3) [787. Cheapest Flights Within K Stops](787-cheapest-flights-within-k-stops/)
 
 ### Day	87 : Sunday	    15/05/2022 00:00:00
 

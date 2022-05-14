@@ -48,6 +48,9 @@ int Lowerbound(vi &a,int start ,int end ,int target){
 			start = mid + 1; 
 		}
 	}
+	while(start < N && a[start] < target) {
+       start++;
+    }
 	return start; 
 }
 

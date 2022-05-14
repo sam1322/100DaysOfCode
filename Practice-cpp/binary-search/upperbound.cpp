@@ -49,6 +49,10 @@ int Upperbound(vi &a,int start ,int end ,int target){
 			start = mid + 1; 
 		}
 	}
+
+	while(start < N && arr[start] <= X) {
+       start++;
+    }
 	return end; 
 }
 

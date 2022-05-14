@@ -27,22 +27,48 @@ typedef pair<int,int> pii;
 // // sieve , binomial coeff , pascal 
 
 
-string removeDuplicates(string s) {
-    int j,i, n = s.size() ; 
-    for(j=0, i =0  ; j<n ; ++i ,j++){
-        s[i]=s[j] ; 
-        if(i > 0 && s[i]==s[i-1]){
-            i-=2 ;
+  
+    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
+        vector<int> prices(n,inf),temp ;
+        // vector<vector<vector<int>>> g(n);
+        // for(auto x:flights){
+        //     int u = x[0] , v = x[1] , w = x[2] ;
+        //     g[u].push_back({v,w});
+        // }
+        prices[src]=0;
+        for(int i = 0 ; i <min(k+1,n-1) ; ++i){
+        temp = prices ;
+          
+            for(auto x:flights){
+            // while(level <= k && !q.empty()){
+                int u = x[0] ; 
+                int v = x[1] ; 
+                int w = x[2] ; 
+                if(temp[u]==inf)continue; 
+                 w += prices[u] ; 
+                if(w < temp[v]){
+                    temp[v] = w ;
+                    // q.push(v); 
+                }
+                // level++;
+                
+            }
+            prices = temp ;
         }
-        cout<<s<<endl;
+        for(int i = 0 ; i < n ; ++i )cout<<prices[i]<<" ";
+        cout<<endl;
+        
+        return (prices[dst] == inf) ? -1 : prices[dst] ; 
+        
     }
-    return s.substr(0,i);
-}
+    
 
 void solve(){
-    string s ;
-    cin>>s;
-    cout<<removeDuplicates(s)<<endl;
+    int n , s ,d, k ;
+    vector<vector<int>> flights = {{0,1,100},{1,2,100},{2,0,100},{1,3,600},{2,3,200}};
+    // cin>>;
+    n = 4 ; s = 0 ; d = 3 ; k = 1; 
+    cout<<findCheapestPrice(n,flights,s,d,k)<<endl;
 }
 
 int main()
