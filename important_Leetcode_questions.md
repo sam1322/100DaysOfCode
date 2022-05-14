@@ -90,53 +90,53 @@ Dynamic Programming
 - [ ] 8. Burst Balloons
 
 Dynamic Programming 
-boolean parenthesization
-Min and max val of expression
-Ugly number
-Super ugly number
-Friends pairing problem
+- [ ] boolean parenthesization
+- [ ] Min and max val of expression
+- [ ] Ugly number
+- [ ] Super ugly number
+- [ ] Friends pairing problem
 
 Number Theory
-Euclidean algorithm
-Extended Euclidean algorithm
-Linear diaophantine equation
-Fermat's little theorem
-No min No max
-MMI
-Boring factorials
+- [ ] Euclidean algorithm
+- [ ] Extended Euclidean algorithm
+- [ ] Linear diaophantine equation
+- [ ] Fermat's little theorem
+- [ ] No min No max
+- [ ] MMI
+- [ ] Boring factorials
 
 Dynamic Programming
-Cherry pickup
-Longest common subsequence
-LCS triplet
-Longest palindromic subsequence
-Edit distance
+- [ ] Cherry pickup
+- [ ] Longest common subsequence
+- [ ] LCS triplet
+- [ ] Longest palindromic subsequence
+- [ ] Edit distance
 
 Dynamic Programming
-egg drop
-2 keys keyboard
+- [ ] egg drop
+- [ ] 2 keys keyboard
 
 Dynamic Programming- Random Qs
-Count all pallindromic subsequence
-Count distinct pallindromic subsequence
-No. of sequence of type a^i+b^j+c^k
-Highway billboard problem
-Frog jump
-Wildcard pattern matching
+- [ ] Count all pallindromic subsequence
+- [ ] Count distinct pallindromic subsequence
+- [ ] No. of sequence of type a^i+b^j+c^k
+- [ ] Highway billboard problem
+- [ ] Frog jump
+- [ ] Wildcard pattern matching
 
 Text processing
-KMP
-Shortest Palindrome
-Z algo
-chef and secret password
-Manacher's algo
+- [ ] KMP
+- [ ] Shortest Palindrome
+- [ ] Z algo
+- [ ] chef and secret password
+- [ ] Manacher's algo
 
 Dynamic Programming
-Tri tiling
-Scramble string
-Coin change 
-Coin change 2
-Unbounded knapsack
+- [ ] Tri tiling
+- [ ] Scramble string
+- [X] Coin change 
+- [ ] Coin change 2
+- [ ] Unbounded knapsack
 
 Arrays and Strings
 Long Pressed Name
