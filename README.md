@@ -854,6 +854,8 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [743. Network Delay Time](743-network-delay-time)
+2) [299. Bulls and Cows](299-bulls-and-cows)
 
 ### Day	87 : Sunday	    15/05/2022 00:00:00
 
