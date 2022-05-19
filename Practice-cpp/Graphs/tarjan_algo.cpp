@@ -94,18 +94,18 @@ int main()
 {
     // ios_base::sync_with_stdio(false);cin.tie(NULL);
  
-        
-  #ifndef ONLINE_JUDGE
-   freopen("/home/sriram/Coding-files/codeforces/in", "r", stdin);
-   freopen("/home/sriram/Coding-files/codeforces/err", "w", stderr);
-   freopen("/home/sriram/Coding-files/codeforces/out", "w", stdout);
-   #endif
-     int tc;
-    scanf("%d", &tc) ; 
-    while(tc--){
-        // cout<<solve()<<endl;
-        solve();
-    }
+ solve();       
+  // #ifndef ONLINE_JUDGE
+  //  freopen("/home/sriram/Coding-files/codeforces/in", "r", stdin);
+  //  freopen("/home/sriram/Coding-files/codeforces/err", "w", stderr);
+  //  freopen("/home/sriram/Coding-files/codeforces/out", "w", stdout);
+  //  #endif
+  //    int tc;
+  //   scanf("%d", &tc) ; 
+  //   while(tc--){
+  //       // cout<<solve()<<endl;
+  //       solve();
+  //   }
 }
 /*
 1

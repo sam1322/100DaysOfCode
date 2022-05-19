@@ -79,7 +79,7 @@ mid = (left + right + 1) / 2 to find last element valid
 - [ ] 6. Buy time to buy and sell stocks w cooldown
 - [ ] 7. Buy time to buy and sell stocks w transaction fee
 
-Dynamic Programming
+### Dynamic Programming
 - [ ] 1. Paint Fence 
 - [ ] 2. Paint House
 - [ ] 3. Paint House 2
@@ -89,7 +89,7 @@ Dynamic Programming
 - [ ] 7. Total number of BST
 - [ ] 8. Burst Balloons
 
-Dynamic Programming 
+### Dynamic Programming 
 - [ ] boolean parenthesization
 - [ ] Min and max val of expression
 - [ ] Ugly number
@@ -105,18 +105,18 @@ Number Theory
 - [ ] MMI
 - [ ] Boring factorials
 
-Dynamic Programming
+### Dynamic Programming
 - [ ] Cherry pickup
 - [ ] Longest common subsequence
 - [ ] LCS triplet
 - [ ] Longest palindromic subsequence
 - [ ] Edit distance
 
-Dynamic Programming
+### Dynamic Programming
 - [ ] egg drop
 - [ ] 2 keys keyboard
 
-Dynamic Programming- Random Qs
+### Dynamic Programming- Random Qs
 - [ ] Count all pallindromic subsequence
 - [ ] Count distinct pallindromic subsequence
 - [ ] No. of sequence of type a^i+b^j+c^k
@@ -124,14 +124,14 @@ Dynamic Programming- Random Qs
 - [ ] Frog jump
 - [ ] Wildcard pattern matching
 
-Text processing
+### Text processing
 - [ ] KMP
 - [ ] Shortest Palindrome
 - [ ] Z algo
 - [ ] chef and secret password
 - [ ] Manacher's algo
 
-Dynamic Programming
+### Dynamic Programming
 - [ ] Tri tiling
 - [ ] Scramble string
 - [X] Coin change 

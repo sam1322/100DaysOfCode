@@ -18,16 +18,29 @@
 
 // hello()
 
-const fs = require('fs');
+// const fs = require('fs');
   
-// Calling the readFileSync() method
-// to read 'input.txt' file
-const data = fs.readFileSync('./in', {encoding:'utf8', flag:'r'});
+// // Calling the readFileSync() method
+// // to read 'input.txt' file
+// const data = fs.readFileSync('./in', {encoding:'utf8', flag:'r'});
  
-// Display the file data
-let d = data.replace(/ /g,"$")
+// // Display the file data
+// let d = data.replace(/ /g,"$")
 
-console.log(data);
-console.log(d)
-let position = 0 ;
-const a = fs.writeFileSync("./out" ,d);
+// console.log(data);
+// console.log(d)
+// let position = 0 ;
+// const a = fs.writeFileSync("./out" ,d);
+var person = {
+  age: 23,
+  getAge: function(){
+    return this.age;
+  }
+}
+        
+var person2 = {age:  54};
+console.log(person.getAge())
+        
+// Returns 54     // Returns "Do something"
+
+console.log(Math.max.apply(null,[1,2,3,4,5]))
