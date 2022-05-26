@@ -891,6 +891,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [1192 Critical Connections In A Network](1192-critical-connections-in-a-network/)
 
 ### Day	91 : Thursday	19/05/2022 00:00:00
 
@@ -924,6 +925,8 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [2279. Maximum Bags With Full Capacity of Rocks](2279-maximum-bags-with-full-capacity-of-rocks/)
+2) [647. Palindromic Substrings](647-palindromic-substrings/)
 
 ### Day	95 : Monday	    23/05/2022 00:00:00
 
@@ -932,6 +935,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [474. Ones And Zeroes](474-https://leetcode.com/problems/ones-and-zeroes/)
 
 ### Day	96 : Tuesday	24/05/2022 00:00:00
 
@@ -940,6 +944,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [32. Longest Valid Parentheses](32-https://leetcode.com/problems/longest-valid-parentheses/)
 
 ### Day	97 : Wednesday	25/05/2022 00:00:00
 
@@ -948,6 +953,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1)[354. Russian Doll Envelopes](354-russian-doll-envelopes/)
 
 ### Day	98 : Thursday	26/05/2022 00:00:00
 
@@ -956,6 +962,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [191. Number of 1 Bits](191-number-of-1-bits/)
 
 ### Day	99 : Friday	    27/05/2022 00:00:00
 
