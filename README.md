@@ -971,6 +971,7 @@
 **Thoughts :** 
 
 **Link to work :**
+1) [1342. Number of Steps to Reduce a Number to Zero](1342-number-of-steps-to-reduce-a-number-to-zero/)
 
 ### Day	100 : Saturday	28/05/2022 00:00:00
 
