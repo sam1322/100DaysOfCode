@@ -12,9 +12,10 @@ Day	0	:	15 June 2022	Wednesday
 **Today's Goals To achieve**
 1) To do atleast one leetcode question.
 
-**Today's Progress :**
+**Today's Progress :** Done 1 question for today.
 
 **Link(s) to work :**
+1) [1048. Longest String Chain](1048-longest-string-chain)
     
 Day	1	:	16 June 2022	Thursday
 
